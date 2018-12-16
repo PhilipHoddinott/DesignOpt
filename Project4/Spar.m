@@ -1,5 +1,4 @@
 %% Spar Class
-% By 6110
 classdef Spar
     %SPAR Class for Wing Spar
     %   The purpose of useing a class is to simplyfy the number of
@@ -20,7 +19,7 @@ classdef Spar
         b;
         lb;
         ub;
-        NcolPts;
+        NcolPts; 
         NpertPts;
         step;
     end
@@ -38,8 +37,8 @@ classdef Spar
             obj.lb=lb; % lower bound
             obj.ub=ub; % upper bound
             obj.NcolPts=NCP; % Number of Collection points
-            obj.NpertPts=NPP;
-            obj.step=step;
+            obj.NpertPts=NPP; 
+            obj.step=step; % step size
         end
     end
 end

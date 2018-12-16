@@ -250,21 +250,15 @@ optns = optimoptions(@fmincon,...
         %   x - location of GQ points 
         %   w - weight of GQ points
         %--------------------------------------------------------------------------
-        if n<2
-            error('Warning Number of Collection points below 2');
-        end
 
-        i   = 1:n-1;
-        a   = sqrt(i/2);
-        CM  = diag(a,1) + diag(a,-1);
+        i   = 1:n-1; 
+        sqrtNodesHalf   = sqrt(i/2); % (nuber of nodes /2)^(1/2)
+        CMat  = diag(sqrtNodesHalf,1) + diag(sqrtNodesHalf,-1); % CMat created so that det(xI-CM)=L_n(x), with L_n the Hermite polynomial
+        % Also, CM will be symmetrical.
 
-        % CM is such that det(xI-CM)=L_n(x), with L_n the Hermite polynomial
-        % under consideration. Moreover, CM will be constructed in such a way
-        % that it is symmetrical.
-        [V, L]   = eig(CM);
-        [x, ind] = sort(diag(L));
-        V       = V(:,ind)';
-        w       = sqrt(pi) * V(:,1).^2;
+        [V, L]   = eig(CMat); % get L, a diagonal matrix
+        [~, indx] = sort(diag(L)); % sort and get indexes
+        V       = V(:,indx)'; w = sqrt(pi) * V(:,1).^2; % get weights
         w=w./sqrt(pi); % adjust weight
     end
     

@@ -47,5 +47,5 @@ tic % start timer
 [sprMss,sprGeo,exp,var,std,wts,pts,exitFlag, fmincOutput ] =fmincon_handle(wing);
 fprintf('Nx=%d,Num Colc Pts = %d, Spar is %.5f kg, ',nodes,NCP, sprMss); % print mass
 toc % output run time
-%makePlots(sprGeo,pts,wts,wing,exp,var,std); % create plots
+makePlots(sprGeo,pts,wts,wing,exp,var,std); % create plots
 

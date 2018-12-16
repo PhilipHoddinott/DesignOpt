@@ -1,0 +1,21 @@
+\begin{thebibliography}{1}
+
+\bibitem{matlabNNBeg}
+Loren Shure.
+\newblock Artificial neural networks for beginners.
+\newblock
+  \url{https://blogs.mathworks.com/loren/2015/08/04/artificial-neural-networks-for-beginners/},
+  August 2015.
+
+\bibitem{mnistDATABASE}
+Christopher J.C.~Burges Yann~LeCun, Corinna~Cortes.
+\newblock The mnist database of handwritten digits.
+\newblock \url{http://yann.lecun.com/exdb/mnist/}.
+
+\bibitem{humanPerf}
+John~Denker Patrice~Simard, Yann Le~Cun.
+\newblock Efficient pattern recognition using a new transformation distance.
+\newblock
+  \url{https://papers.nips.cc/paper/656-efficient-pattern-recognition-using-a-new-transformation-distance.pdf}.
+
+\end{thebibliography}

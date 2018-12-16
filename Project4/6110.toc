@@ -1,0 +1,11 @@
+\contentsline {section}{\numberline {1}Executive Summary}{1}
+\contentsline {section}{\numberline {2}Analysis Methods}{1}
+\contentsline {subsection}{\numberline {2.1}Limitations}{3}
+\contentsline {section}{\numberline {3}Geometry parameterization}{3}
+\contentsline {section}{\numberline {4}Optimization}{3}
+\contentsline {subsection}{\numberline {4.1}Optimization Methods}{4}
+\contentsline {subsection}{\numberline {4.2}Constraints}{4}
+\contentsline {section}{\numberline {5}Results}{5}
+\contentsline {section}{\numberline {6}Conclusions}{8}
+\contentsline {section}{\numberline {7}References}{10}
+\contentsline {section}{\numberline {8}Appendix: MATLAB Code}{10}

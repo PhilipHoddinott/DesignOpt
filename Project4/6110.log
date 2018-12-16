@@ -1,0 +1,1117 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.16)  11 DEC 2018 20:32
+entering extended mode
+**./6110.tex
+(6110.tex
+LaTeX2e <2017-04-15>
+Babel <3.15> and hyphenation patterns for 75 language(s) loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count87
+\Gm@cntv=\count88
+\c@Gm@tempcnt=\count89
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen111
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen112
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count90
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count91
+\leftroot@=\count92
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count93
+\DOTSCASE@=\count94
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen113
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count95
+\c@MaxMatrixCols=\count96
+\dotsspace@=\muskip10
+\c@parentequation=\count97
+\dspbrk@lvl=\count98
+\tag@help=\toks17
+\row@=\count99
+\column@=\count100
+\maxfields@=\count101
+\andhelp@=\toks18
+\eqnshift@=\dimen114
+\alignsep@=\dimen115
+\tagshift@=\dimen116
+\tagwidth@=\dimen117
+\totwidth@=\dimen118
+\lineht@=\dimen119
+\@envbody=\toks19
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
+Package: amsthm 2015/03/04 v2.20.2
+\thm@style=\toks21
+\thm@bodyfont=\toks22
+\thm@headfont=\toks23
+\thm@notefont=\toks24
+\thm@headpunct=\toks25
+\thm@preskip=\skip46
+\thm@postskip=\skip47
+\thm@headsep=\skip48
+\dth@everypar=\toks26
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip49
+\f@nch@O@elh=\skip50
+\f@nch@O@erh=\skip51
+\f@nch@O@olh=\skip52
+\f@nch@O@orh=\skip53
+\f@nch@O@elf=\skip54
+\f@nch@O@erf=\skip55
+\f@nch@O@olf=\skip56
+\f@nch@O@orf=\skip57
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\lastpage\lastpage.sty"
+Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+)
+\Gin@req@height=\dimen120
+\Gin@req@width=\dimen121
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\subcaption.sty"
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen122
+\captionmargin@=\dimen123
+\captionwidth=\dimen124
+\caption@tempdima=\dimen125
+\caption@indent=\dimen126
+\caption@parindent=\dimen127
+\caption@hangindent=\dimen128
+)
+\c@ContinuedFloat=\count102
+)
+\c@subfigure=\count103
+\c@subtable=\count104
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty"
+Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count105
+\calc@Bcount=\count106
+\calc@Adimen=\dimen129
+\calc@Bdimen=\dimen130
+\calc@Askip=\skip58
+\calc@Bskip=\skip59
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count107
+\calc@Cskip=\skip60
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty"
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+\AM@pagewidth=\dimen131
+\AM@pageheight=\dimen132
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
+File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box28
+\AM@global@opts=\toks27
+\AM@toc@title=\toks28
+\c@AM@survey=\count108
+\AM@templatesizebox=\box29
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\multicol.sty"
+Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
+\c@tracingmulticols=\count109
+\mult@box=\box30
+\multicol@leftmargin=\dimen133
+\c@unbalance=\count110
+\c@collectmore=\count111
+\doublecol@number=\count112
+\multicoltolerance=\count113
+\multicolpretolerance=\count114
+\full@width=\dimen134
+\page@free=\dimen135
+\premulticols=\dimen136
+\postmulticols=\dimen137
+\multicolsep=\skip61
+\multicolbaselineskip=\skip62
+\partial@page=\box31
+\last@line=\box32
+\maxbalancingoverflow=\dimen138
+\mult@rightbox=\box33
+\mult@grightbox=\box34
+\mult@gfirstbox=\box35
+\mult@firstbox=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\@tempa=\box53
+\c@columnbadness=\count115
+\c@finalcolumnbadness=\count116
+\last@try=\dimen139
+\multicolovershoot=\dimen140
+\multicolundershoot=\dimen141
+\mult@nat@firstbox=\box54
+\colbreak@box=\box55
+\mc@col@check@num=\count117
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count118
+\float@exts=\toks29
+\float@box=\box56
+\@float@everytoks=\toks30
+\@floatcapt=\box57
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
+\lst@mode=\count119
+\lst@gtempboxa=\box58
+\lst@token=\toks31
+\lst@length=\count120
+\lst@currlwidth=\dimen142
+\lst@column=\count121
+\lst@pos=\count122
+\lst@lostspace=\dimen143
+\lst@width=\dimen144
+\lst@newlines=\count123
+\lst@lineno=\count124
+\lst@maxwidth=\dimen145
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count125
+\lst@skipnumbers=\count126
+\lst@framebox=\box59
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+ (6110.aux)
+\openout1 = `6110.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count127
+\scratchdimen=\dimen146
+\scratchbox=\box60
+\nofMPsegments=\count128
+\nofMParguments=\count129
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count130
+\MPscratchDim=\dimen147
+\MPnumerator=\count131
+\makeMPintoPDFobject=\count132
+\everyMPtoPDFconversion=\toks33
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             https://www.ctan.org/pkg/pageslts
+(lastpage)             ! on input line 55.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\AtBeginShipoutBox=\box61
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty"
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+\c@lstlisting=\count133
+LaTeX Font Info:    Try loading font information for U+msa on input line 65.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 65.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (6110.toc)
+\tf@toc=\write3
+\openout3 = `6110.toc'.
+
+ [1
+
+{C:/Users/Philip/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+<sparFlyer.jpg, id=8, 963.6pt x 770.88pt>
+File: sparFlyer.jpg Graphic file (type jpg)
+<use sparFlyer.jpg>
+Package pdftex.def Info: sparFlyer.jpg  used on input line 77. on input line 77
+.
+Package pdftex.def Info: Requested size: 234.8775pt x 187.89684pt on input line
+ 77.
+<sparDiagram.png, id=9, 804.606pt x 183.084pt>
+File: sparDiagram.png Graphic file (type png)
+<use sparDiagram.png>
+Package pdftex.def Info: sparDiagram.png  used on input line 87. on input line 
+87.
+Package pdftex.def Info: Requested size: 328.82707pt x 74.82187pt on input line
+ 87.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[1 <./sparFlyer.jpg> <./sparDiagram.png>]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+Missing character: There is no â in font cmr8!
+Missing character: There is no € in font cmr8!
+Missing character: There is no ™ in font cmr8!
+Missing character: There is no â in font cmr6!
+Missing character: There is no € in font cmr6!
+Missing character: There is no ™ in font cmr6!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+Missing character: There is no â in font cmr8!
+Missing character: There is no € in font cmr8!
+Missing character: There is no ™ in font cmr8!
+Missing character: There is no â in font cmr6!
+Missing character: There is no € in font cmr6!
+Missing character: There is no ™ in font cmr6!
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4]
+<nomStress.png, id=35, 773.289pt x 379.1766pt>
+File: nomStress.png Graphic file (type png)
+<use nomStress.png>
+Package pdftex.def Info: nomStress.png  used on input line 323. on input line 3
+23.
+Package pdftex.def Info: Requested size: 328.82707pt x 161.2376pt on input line
+ 323.
+<codeNomMass.png, id=36, 1445.4pt x 704.6325pt>
+File: codeNomMass.png Graphic file (type png)
+<use codeNomMass.png>
+Package pdftex.def Info: codeNomMass.png  used on input line 329. on input line
+ 329.
+Package pdftex.def Info: Requested size: 328.82707pt x 160.29877pt on input lin
+e 329.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5]
+<FminConOutPut.png, id=41, 445.665pt x 134.30174pt>
+File: FminConOutPut.png Graphic file (type png)
+<use FminConOutPut.png>
+Package pdftex.def Info: FminConOutPut.png  used on input line 340. on input li
+ne 340.
+Package pdftex.def Info: Requested size: 328.82707pt x 99.09277pt on input line
+ 340.
+<codeResultsAll.png, id=42, 1445.4pt x 704.6325pt>
+File: codeResultsAll.png Graphic file (type png)
+<use codeResultsAll.png>
+Package pdftex.def Info: codeResultsAll.png  used on input line 348. on input l
+ine 348.
+Package pdftex.def Info: Requested size: 328.82707pt x 160.29877pt on input lin
+e 348.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6 <./nomStress.png (PNG copy)> <./codeNomMass.png (PNG copy)> <./FminConOutPut
+.png>]
+<geoVstress.png, id=48, 1445.4pt x 704.6325pt>
+File: geoVstress.png Graphic file (type png)
+<use geoVstress.png>
+Package pdftex.def Info: geoVstress.png  used on input line 360. on input line 
+360.
+Package pdftex.def Info: Requested size: 328.82707pt x 160.29877pt on input lin
+e 360.
+<fiveColcResults.png, id=49, 1445.4pt x 704.6325pt>
+File: fiveColcResults.png Graphic file (type png)
+<use fiveColcResults.png>
+Package pdftex.def Info: fiveColcResults.png  used on input line 371. on input 
+line 371.
+Package pdftex.def Info: Requested size: 328.82707pt x 160.29877pt on input lin
+e 371.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7 <./codeResultsAll.png (PNG copy)> <./geoVstress.png (PNG copy)>]
+<massAllPlt.png, id=53, 1445.4pt x 704.6325pt>
+File: massAllPlt.png Graphic file (type png)
+<use massAllPlt.png>
+Package pdftex.def Info: massAllPlt.png  used on input line 380. on input line 
+380.
+Package pdftex.def Info: Requested size: 328.82707pt x 160.29877pt on input lin
+e 380.
+<tipDisplacment.png, id=54, 526.96875pt x 395.22656pt>
+File: tipDisplacment.png Graphic file (type png)
+<use tipDisplacment.png>
+Package pdftex.def Info: tipDisplacment.png  used on input line 389. on input l
+ine 389.
+Package pdftex.def Info: Requested size: 328.82707pt x 246.63002pt on input lin
+e 389.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8 <./fiveColcResults.png (PNG copy)> <./massAllPlt.png (PNG copy)>]
+<runTimePlt.png, id=58, 1445.4pt x 704.6325pt>
+File: runTimePlt.png Graphic file (type png)
+<use runTimePlt.png>
+Package pdftex.def Info: runTimePlt.png  used on input line 413. on input line 
+413.
+Package pdftex.def Info: Requested size: 328.82707pt x 160.29877pt on input lin
+e 413.
+ (6110.bbl
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9 <./tipDisplacment.png (PNG copy)> <./runTimePlt.png (PNG copy)>]
+Underfull \hbox (badness 3189) in paragraph at lines 43--47
+[]\OT1/cmr/m/n/12 G. V. Damme. (2010, Feb) Leg-en-dre la-guerre and her-mite - 
+gauss quadra-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--47
+\OT1/cmr/m/n/12 ture. Avail-able: $https : / / www . mathworks . com / matlabce
+ntral / leexchange /
+ []
+
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+<C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/Project_4_master.pdf,
+ id=62, pagebox=cropbox, 614.295pt x 794.97pt>
+File: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/Project_4_master
+.pdf Graphic file (type pdf)
+<use C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/Project_4_master.
+pdf>
+Package pdftex.def Info: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/ht
+ml/Project_4_master.pdf  used on input line 448. on input line 448.
+Package pdftex.def Info: Requested size: 614.29349pt x 794.96806pt on input lin
+e 448.
+File: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/Project_4_master
+.pdf Graphic file (type pdf)
+<use C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/Project_4_master.
+pdf>
+Package pdftex.def Info: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/ht
+ml/Project_4_master.pdf  used on input line 448. on input line 448.
+Package pdftex.def Info: Requested size: 614.29349pt x 794.96806pt on input lin
+e 448.
+<C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/Project_4_master.pdf,
+ id=65, page=1, pagebox=cropbox, 614.295pt x 794.97pt>
+File: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/Project_4_master
+.pdf Graphic file (type pdf)
+<use C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/Project_4_master.
+pdf, page 1>
+Package pdftex.def Info: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/ht
+ml/Project_4_master.pdf , page1 used on input line 448. on input line 448.
+Package pdftex.def Info: Requested size: 614.29349pt x 794.96806pt on input lin
+e 448.
+File: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/Project_4_master
+.pdf Graphic file (type pdf)
+<use C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/Project_4_master.
+pdf, page 1>
+Package pdftex.def Info: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/ht
+ml/Project_4_master.pdf , page1 used on input line 448. on input line 448.
+Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
+ 448.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10]
+File: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/Project_4_master
+.pdf Graphic file (type pdf)
+<use C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/Project_4_master.
+pdf, page 1>
+Package pdftex.def Info: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/ht
+ml/Project_4_master.pdf , page1 used on input line 448. on input line 448.
+Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
+ 448.
+File: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/Project_4_master
+.pdf Graphic file (type pdf)
+<use C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/Project_4_master.
+pdf, page 1>
+Package pdftex.def Info: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/ht
+ml/Project_4_master.pdf , page1 used on input line 448. on input line 448.
+Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
+ 448.
+File: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/Project_4_master
+.pdf Graphic file (type pdf)
+<use C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/Project_4_master.
+pdf, page 1>
+Package pdftex.def Info: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/ht
+ml/Project_4_master.pdf , page1 used on input line 448. on input line 448.
+Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
+ 448.
+ [11 <C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/Project_4_master
+.pdf>]
+<C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/Project_4_master.pdf,
+ id=81, page=2, pagebox=cropbox, 614.295pt x 794.97pt>
+File: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/Project_4_master
+.pdf Graphic file (type pdf)
+<use C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/Project_4_master.
+pdf, page 2>
+Package pdftex.def Info: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/ht
+ml/Project_4_master.pdf , page2 used on input line 448. on input line 448.
+Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
+ 448.
+File: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/Project_4_master
+.pdf Graphic file (type pdf)
+<use C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/Project_4_master.
+pdf, page 2>
+Package pdftex.def Info: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/ht
+ml/Project_4_master.pdf , page2 used on input line 448. on input line 448.
+Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
+ 448.
+File: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/Project_4_master
+.pdf Graphic file (type pdf)
+<use C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/Project_4_master.
+pdf, page 2>
+Package pdftex.def Info: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/ht
+ml/Project_4_master.pdf , page2 used on input line 448. on input line 448.
+Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
+ 448.
+ [12 <C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/Project_4_master
+.pdf>]
+<C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/Spar.pdf, id=86, page
+box=cropbox, 614.295pt x 794.97pt>
+File: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/Spar.pdf Graphic
+ file (type pdf)
+<use C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/Spar.pdf>
+Package pdftex.def Info: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/ht
+ml/Spar.pdf  used on input line 452. on input line 452.
+Package pdftex.def Info: Requested size: 614.29349pt x 794.96806pt on input lin
+e 452.
+File: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/Spar.pdf Graphic
+ file (type pdf)
+<use C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/Spar.pdf>
+Package pdftex.def Info: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/ht
+ml/Spar.pdf  used on input line 452. on input line 452.
+Package pdftex.def Info: Requested size: 614.29349pt x 794.96806pt on input lin
+e 452.
+<C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/Spar.pdf, id=89, page
+=1, pagebox=cropbox, 614.295pt x 794.97pt>
+File: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/Spar.pdf Graphic
+ file (type pdf)
+<use C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/Spar.pdf, page 1>
+
+Package pdftex.def Info: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/ht
+ml/Spar.pdf , page1 used on input line 452. on input line 452.
+Package pdftex.def Info: Requested size: 614.29349pt x 794.96806pt on input lin
+e 452.
+File: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/Spar.pdf Graphic
+ file (type pdf)
+<use C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/Spar.pdf, page 1>
+
+Package pdftex.def Info: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/ht
+ml/Spar.pdf , page1 used on input line 452. on input line 452.
+Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
+ 452.
+File: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/Spar.pdf Graphic
+ file (type pdf)
+<use C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/Spar.pdf, page 1>
+
+Package pdftex.def Info: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/ht
+ml/Spar.pdf , page1 used on input line 452. on input line 452.
+Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
+ 452.
+File: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/Spar.pdf Graphic
+ file (type pdf)
+<use C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/Spar.pdf, page 1>
+
+Package pdftex.def Info: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/ht
+ml/Spar.pdf , page1 used on input line 452. on input line 452.
+Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
+ 452.
+File: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/Spar.pdf Graphic
+ file (type pdf)
+<use C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/Spar.pdf, page 1>
+
+Package pdftex.def Info: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/ht
+ml/Spar.pdf , page1 used on input line 452. on input line 452.
+Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
+ 452.
+ [13 <C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/Spar.pdf>]
+<C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.pdf, i
+d=101, pagebox=cropbox, 614.295pt x 794.97pt>
+File: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.p
+df Graphic file (type pdf)
+<use C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.pd
+f>
+Package pdftex.def Info: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/ht
+ml/fmincon_handle.pdf  used on input line 457. on input line 457.
+Package pdftex.def Info: Requested size: 614.29349pt x 794.96806pt on input lin
+e 457.
+File: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.p
+df Graphic file (type pdf)
+<use C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.pd
+f>
+Package pdftex.def Info: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/ht
+ml/fmincon_handle.pdf  used on input line 457. on input line 457.
+Package pdftex.def Info: Requested size: 614.29349pt x 794.96806pt on input lin
+e 457.
+<C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.pdf, i
+d=104, page=1, pagebox=cropbox, 614.295pt x 794.97pt>
+File: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.p
+df Graphic file (type pdf)
+<use C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.pd
+f, page 1>
+Package pdftex.def Info: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/ht
+ml/fmincon_handle.pdf , page1 used on input line 457. on input line 457.
+Package pdftex.def Info: Requested size: 614.29349pt x 794.96806pt on input lin
+e 457.
+File: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.p
+df Graphic file (type pdf)
+<use C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.pd
+f, page 1>
+Package pdftex.def Info: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/ht
+ml/fmincon_handle.pdf , page1 used on input line 457. on input line 457.
+Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
+ 457.
+File: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.p
+df Graphic file (type pdf)
+<use C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.pd
+f, page 1>
+Package pdftex.def Info: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/ht
+ml/fmincon_handle.pdf , page1 used on input line 457. on input line 457.
+Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
+ 457.
+File: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.p
+df Graphic file (type pdf)
+<use C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.pd
+f, page 1>
+Package pdftex.def Info: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/ht
+ml/fmincon_handle.pdf , page1 used on input line 457. on input line 457.
+Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
+ 457.
+File: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.p
+df Graphic file (type pdf)
+<use C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.pd
+f, page 1>
+Package pdftex.def Info: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/ht
+ml/fmincon_handle.pdf , page1 used on input line 457. on input line 457.
+Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
+ 457.
+ [14 <C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.p
+df>]
+<C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.pdf, i
+d=116, page=2, pagebox=cropbox, 614.295pt x 794.97pt>
+File: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.p
+df Graphic file (type pdf)
+<use C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.pd
+f, page 2>
+Package pdftex.def Info: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/ht
+ml/fmincon_handle.pdf , page2 used on input line 457. on input line 457.
+Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
+ 457.
+File: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.p
+df Graphic file (type pdf)
+<use C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.pd
+f, page 2>
+Package pdftex.def Info: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/ht
+ml/fmincon_handle.pdf , page2 used on input line 457. on input line 457.
+Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
+ 457.
+File: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.p
+df Graphic file (type pdf)
+<use C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.pd
+f, page 2>
+Package pdftex.def Info: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/ht
+ml/fmincon_handle.pdf , page2 used on input line 457. on input line 457.
+Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
+ 457.
+ [15 <C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.p
+df>]
+<C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.pdf, i
+d=120, page=3, pagebox=cropbox, 614.295pt x 794.97pt>
+File: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.p
+df Graphic file (type pdf)
+<use C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.pd
+f, page 3>
+Package pdftex.def Info: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/ht
+ml/fmincon_handle.pdf , page3 used on input line 457. on input line 457.
+Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
+ 457.
+File: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.p
+df Graphic file (type pdf)
+<use C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.pd
+f, page 3>
+Package pdftex.def Info: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/ht
+ml/fmincon_handle.pdf , page3 used on input line 457. on input line 457.
+Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
+ 457.
+File: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.p
+df Graphic file (type pdf)
+<use C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.pd
+f, page 3>
+Package pdftex.def Info: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/ht
+ml/fmincon_handle.pdf , page3 used on input line 457. on input line 457.
+Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
+ 457.
+ [16 <C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.p
+df>]
+<C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.pdf, i
+d=124, page=4, pagebox=cropbox, 614.295pt x 794.97pt>
+File: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.p
+df Graphic file (type pdf)
+<use C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.pd
+f, page 4>
+Package pdftex.def Info: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/ht
+ml/fmincon_handle.pdf , page4 used on input line 457. on input line 457.
+Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
+ 457.
+File: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.p
+df Graphic file (type pdf)
+<use C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.pd
+f, page 4>
+Package pdftex.def Info: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/ht
+ml/fmincon_handle.pdf , page4 used on input line 457. on input line 457.
+Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
+ 457.
+File: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.p
+df Graphic file (type pdf)
+<use C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.pd
+f, page 4>
+Package pdftex.def Info: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/ht
+ml/fmincon_handle.pdf , page4 used on input line 457. on input line 457.
+Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
+ 457.
+ [17 <C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.p
+df>]
+<C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.pdf, i
+d=128, page=5, pagebox=cropbox, 614.295pt x 794.97pt>
+File: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.p
+df Graphic file (type pdf)
+<use C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.pd
+f, page 5>
+Package pdftex.def Info: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/ht
+ml/fmincon_handle.pdf , page5 used on input line 457. on input line 457.
+Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
+ 457.
+File: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.p
+df Graphic file (type pdf)
+<use C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.pd
+f, page 5>
+Package pdftex.def Info: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/ht
+ml/fmincon_handle.pdf , page5 used on input line 457. on input line 457.
+Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
+ 457.
+File: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.p
+df Graphic file (type pdf)
+<use C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.pd
+f, page 5>
+Package pdftex.def Info: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/ht
+ml/fmincon_handle.pdf , page5 used on input line 457. on input line 457.
+Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
+ 457.
+ [18 <C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.p
+df>]
+<C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.pdf, i
+d=133, page=6, pagebox=cropbox, 614.295pt x 794.97pt>
+File: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.p
+df Graphic file (type pdf)
+<use C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.pd
+f, page 6>
+Package pdftex.def Info: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/ht
+ml/fmincon_handle.pdf , page6 used on input line 457. on input line 457.
+Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
+ 457.
+File: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.p
+df Graphic file (type pdf)
+<use C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.pd
+f, page 6>
+Package pdftex.def Info: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/ht
+ml/fmincon_handle.pdf , page6 used on input line 457. on input line 457.
+Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
+ 457.
+File: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.p
+df Graphic file (type pdf)
+<use C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.pd
+f, page 6>
+Package pdftex.def Info: C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/ht
+ml/fmincon_handle.pdf , page6 used on input line 457. on input line 457.
+Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
+ 457.
+ [19 <C:/Users/Philip/Documents/GitHub/DesignOpt/Project4/html/fmincon_handle.p
+df>]
+<C:/Users/Philip/Documents/MATLAB/Fall2018/DesignOpt/Project_4/Final_Version/ht
+ml/makePlots.pdf, id=137, pagebox=cropbox, 614.295pt x 794.97pt>
+File: C:/Users/Philip/Documents/MATLAB/Fall2018/DesignOpt/Project_4/Final_Versi
+on/html/makePlots.pdf Graphic file (type pdf)
+<use C:/Users/Philip/Documents/MATLAB/Fall2018/DesignOpt/Project_4/Final_Versio
+n/html/makePlots.pdf>
+Package pdftex.def Info: C:/Users/Philip/Documents/MATLAB/Fall2018/DesignOpt/Pr
+oject_4/Final_Version/html/makePlots.pdf  used on input line 462. on input line
+ 462.
+Package pdftex.def Info: Requested size: 614.29349pt x 794.96806pt on input lin
+e 462.
+File: C:/Users/Philip/Documents/MATLAB/Fall2018/DesignOpt/Project_4/Final_Versi
+on/html/makePlots.pdf Graphic file (type pdf)
+<use C:/Users/Philip/Documents/MATLAB/Fall2018/DesignOpt/Project_4/Final_Versio
+n/html/makePlots.pdf>
+Package pdftex.def Info: C:/Users/Philip/Documents/MATLAB/Fall2018/DesignOpt/Pr
+oject_4/Final_Version/html/makePlots.pdf  used on input line 462. on input line
+ 462.
+Package pdftex.def Info: Requested size: 614.29349pt x 794.96806pt on input lin
+e 462.
+<C:/Users/Philip/Documents/MATLAB/Fall2018/DesignOpt/Project_4/Final_Version/ht
+ml/makePlots.pdf, id=140, page=1, pagebox=cropbox, 614.295pt x 794.97pt>
+File: C:/Users/Philip/Documents/MATLAB/Fall2018/DesignOpt/Project_4/Final_Versi
+on/html/makePlots.pdf Graphic file (type pdf)
+<use C:/Users/Philip/Documents/MATLAB/Fall2018/DesignOpt/Project_4/Final_Versio
+n/html/makePlots.pdf, page 1>
+Package pdftex.def Info: C:/Users/Philip/Documents/MATLAB/Fall2018/DesignOpt/Pr
+oject_4/Final_Version/html/makePlots.pdf , page1 used on input line 462. on inp
+ut line 462.
+Package pdftex.def Info: Requested size: 614.29349pt x 794.96806pt on input lin
+e 462.
+File: C:/Users/Philip/Documents/MATLAB/Fall2018/DesignOpt/Project_4/Final_Versi
+on/html/makePlots.pdf Graphic file (type pdf)
+<use C:/Users/Philip/Documents/MATLAB/Fall2018/DesignOpt/Project_4/Final_Versio
+n/html/makePlots.pdf, page 1>
+Package pdftex.def Info: C:/Users/Philip/Documents/MATLAB/Fall2018/DesignOpt/Pr
+oject_4/Final_Version/html/makePlots.pdf , page1 used on input line 462. on inp
+ut line 462.
+Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
+ 462.
+File: C:/Users/Philip/Documents/MATLAB/Fall2018/DesignOpt/Project_4/Final_Versi
+on/html/makePlots.pdf Graphic file (type pdf)
+<use C:/Users/Philip/Documents/MATLAB/Fall2018/DesignOpt/Project_4/Final_Versio
+n/html/makePlots.pdf, page 1>
+Package pdftex.def Info: C:/Users/Philip/Documents/MATLAB/Fall2018/DesignOpt/Pr
+oject_4/Final_Version/html/makePlots.pdf , page1 used on input line 462. on inp
+ut line 462.
+Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
+ 462.
+File: C:/Users/Philip/Documents/MATLAB/Fall2018/DesignOpt/Project_4/Final_Versi
+on/html/makePlots.pdf Graphic file (type pdf)
+<use C:/Users/Philip/Documents/MATLAB/Fall2018/DesignOpt/Project_4/Final_Versio
+n/html/makePlots.pdf, page 1>
+Package pdftex.def Info: C:/Users/Philip/Documents/MATLAB/Fall2018/DesignOpt/Pr
+oject_4/Final_Version/html/makePlots.pdf , page1 used on input line 462. on inp
+ut line 462.
+Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
+ 462.
+File: C:/Users/Philip/Documents/MATLAB/Fall2018/DesignOpt/Project_4/Final_Versi
+on/html/makePlots.pdf Graphic file (type pdf)
+<use C:/Users/Philip/Documents/MATLAB/Fall2018/DesignOpt/Project_4/Final_Versio
+n/html/makePlots.pdf, page 1>
+Package pdftex.def Info: C:/Users/Philip/Documents/MATLAB/Fall2018/DesignOpt/Pr
+oject_4/Final_Version/html/makePlots.pdf , page1 used on input line 462. on inp
+ut line 462.
+Package pdftex.def Info: Requested size: 614.58406pt x 795.3441pt on input line
+ 462.
+ [20 <C:/Users/Philip/Documents/MATLAB/Fall2018/DesignOpt/Project_4/Final_Versi
+on/html/makePlots.pdf>]
+
+AED: lastpage setting LastPage
+
+Package caption Warning: Unused \captionsetup[sub] on input line 48.
+See the caption package documentation for explanation.
+
+(6110.aux) ) 
+Here is how much of TeX's memory you used:
+ 6686 strings out of 493312
+ 102688 string characters out of 3138896
+ 199820 words of memory out of 3000000
+ 10086 multiletter control sequences out of 15000+200000
+ 13395 words of font info for 52 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 42i,18n,46p,776b,430s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/symbols/msbm10.pfb>
+Output written on 6110.pdf (21 pages, 1053229 bytes).
+PDF statistics:
+ 202 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 166 words of extra memory for PDF output out of 10000 (max. 10000000)
+

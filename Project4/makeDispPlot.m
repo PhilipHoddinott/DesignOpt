@@ -16,8 +16,10 @@ for i=1:length(dipBmc)
 end
 figure(nodes)
 hold on
-plot(dipEnd)
-
+plot(Nxi(1:end-1), dipEnd(1:end-1))
+xlabel('Nx')
+ylabel('Spar tip displacment (meters)')
+grid on
 %% test beam disp
 % disp = F*L^3 /(3EI)
 F=100;
