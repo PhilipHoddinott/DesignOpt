@@ -152,7 +152,9 @@
 	% ------------------------------------------------------------
 	% Abstract 
 	% ------------------------------------------------------------
-	
+\tableofcontents
+\listoffigures	
+%\doublespacing
 	\newpage
 	\section*{Abstract}
 	\textcolor{red}{Remove pasive voice, will, chec out rubirc }
@@ -165,16 +167,15 @@
 	
 	 for his suggestion of this project and his assistance with the methods of orbital determination through out the semester.\par 
 	
-		\newpage
+	%	\newpage
 %\setcounter{page}{1}
-\tableofcontents
-\listoffigures
-\doublespacing
+
+
 	%\textcolor{red}{ Do More}
 	% ------------------------------------------------------------
 	% Introduction
 	% ------------------------------------------------------------
-	\newpage
+	%\newpage
 	 % this should start the normal numberinbg
 
 	\section{Introduction}
@@ -223,12 +224,12 @@
 	\end{figure}
 
 	The four steps
-	\begin{enumerate}\singlespacing
+	\begin{enumerate}%\singlespacing
 		\item Initialize weights and biases. 
 		\item Forward propagation
 		\item compute loss
 		\item back prop
-	\end{enumerate}\doublespacing
+	\end{enumerate}%\doublespacing
 	\subsubsection{Parameter Initialization}
 	The first step in training a neural net is to initialized the bias vectors and weight  matrices. They are initialized with random numbers between 0 and 1, then multiplied by a small scalar around the order of $10^{-2}$ so that the units are not on the region where the derivative of the activation function are close to zero. The initial parameters should be different values (to keep the gradients from being the same).
 	
@@ -330,15 +331,12 @@
 	
 	\section{Implementation}
 	\subsection{Object Oriented Programming in MATLAB}
-	This neural net had to be made without the use of any built in libraries \cite{Hicken18gradProjDes} and the code had to be modular \cite{Hicken18gradProjRubric}. TO create code for neural network subject to these constraints the author decided to create their own neural net class in MATLAB. \par 
+	This neural net had to be made without the use of any built in libraries \cite{Hicken18gradProjDes} and the code had to be modular \cite{Hicken18gradProjRubric}. To create code for neural network subject to these constraints the author decided to create their own neural net class in MATLAB. \par 
 	
-	In MATLAB a class is an object that has parameters and functions. 
+	The MATLAB class philipNeuralNet.m was written for this neural net project. It has the parameters learningRate and Level. The learningRate paramter is obviously the learning rate. The Level parameter has four parameters attached to it: W (weight), dW (weight derivative),  z (input), and A (the vector for the layer). By having this class we have avoided hard coding the propagation of the neural net and it is possible to test different neural net architectures on this code. \par 
 	
-	The MATLAB class philipNeuralNet.m was written for this neural net project. It has the parameters learningRate and Level. The Level parameter has four parameters attached to it: W (weight), dW (weight derivative),  z (input), and A (the vector for the layer). By having this class we have avoided hard coding the propagation of the neural net and it is possible to test different neural net architectures on this code. 
+	The MATLAB class also has an activation function and a derivative of the activation function. The actFunSwitch variable allows either the Sigmoid or the Tanh function to be selected. Additionally the enableBias variable allows for biases to be used or not used in the code's execution. \par 
 	
-	With these restrictions the 
-	As this neural net 
-	MATLAB allows 
 	\subsection{MATLAB Code}
 	NOTE THAT THIS CODE WAS BIAS FREE
 	The code for this project was 
@@ -366,6 +364,11 @@
 	Looking at the results,  It was discovered that
 	
 	\subsection{Comparison of different hidden layer sizes}
+	
+	From Shure \cite{matlabNNBeg}, the optimal size for the hidden layer in a three layer neural network is 250 nodes. Comparing the results for hidden layers shown 
+	No diffrence between the diffreny layer sizes, however there was a 
+	
+	However the problem is that the larger the nubme rof nodes, the longer it takes for the net to train, as there are more operations to perform. 
 	
 	\subsection{Multiple hidden layers}
 	
