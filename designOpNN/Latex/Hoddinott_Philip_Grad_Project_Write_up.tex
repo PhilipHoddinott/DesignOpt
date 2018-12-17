@@ -174,6 +174,7 @@
 	 % this should start the normal numberinbg
 
 	\section{Introduction}
+	\textcolor{red}{Put a paragraph here}
 	In recent years the 
 	Have it solve the MNIST with a simple simple thing
 	then try diffrent layers and stuff
@@ -195,35 +196,32 @@
 	\end{figure}
 	
 	\subsection{Artificial neural network}
-	An artificial neural network (referred to as a neural network in this paper) is a computation system that mimics the biological neural networks found in animal brains. A nerual network is not an explict
+	An artificial neural network (referred to as a neural network in this paper) is a computation system that mimics the biological neural networks found in animal brains. A neural network is not an explict
 	A 
 	Neural networks may be trained for tasks, such as the number recognition in this report. 
 	
+	The neural net implemented in this project had an input vector of $784\times1$ and an output vector of $10\times1$. Different configurations were tried, with one hidden layer of $250\times1$ producing the best results. A visualization of an example neural net is seen in figure \ref{fig:nndiagram}.
 	\begin{figure}
 		\centering
 		\includegraphics[width=0.6\linewidth]{nnDiagram}
-		\caption{Visualization of a neural network \cite{nnDiagramStack}. }
+		\caption{Visualization of a neural network with one hidden layer\cite{nnDiagramStack}. }
 		\label{fig:nndiagram}
 	\end{figure}
 	
 	
 	\subsection{Neural Network Walkthrough}
 	
-	Forward and backward propogation are visulized in figure \ref{fig:forwardbackwardprop}
-	\begin{figure}
-		\centering
-		\includegraphics[width=0.7\linewidth]{forwardBackwardProp}
-		\caption{A visulization of forward and backward propogation \cite{nnBlog}.}
-		\label{fig:forwardbackwardprop}
-	\end{figure}
-
-	The four steps
+	
+	The training of a neural network involves four main steps:
 	\begin{enumerate}\singlespacing
 		\item Initialize weights and biases. 
 		\item Forward propagation
-		\item compute loss
-		\item back prop
+		\item Compute the loss
+		\item Backward propagation
 	\end{enumerate}%\doublespacing
+
+
+
 	\subsubsection{Parameter Initialization}
 	The first step in training a neural net is to initialized the bias vectors and weight  matrices. They are initialized with random numbers between 0 and 1, then multiplied by a small scalar around the order of $10^{-2}$ so that the units are not on the region where the derivative of the activation function are close to zero. The initial parameters should be different values (to keep the gradients from being the same).
 	
@@ -232,7 +230,7 @@
 	
 
 	\subsubsection{Forward Propagation}
-	The next step is the forward propagation. The network takes the inputs from a previous layer, computes their transformation, and applies an activation function. Mathematically this is represented by equation \ref{eqn:forProp}. 
+	The next step is the forward propagation. The network takes the inputs from a previous layer, computes their transformation, and applies an activation function. Mathematically the forward propagation at level ``i" is represented by equation~\ref{eqn:forProp}.\par  
 	\begin{equation}
 	\begin{aligned}
 	z_i = A_{i-1}* W_{i}+b\\
@@ -242,9 +240,12 @@
 	\end{equation}
 	Where z is the input vector, A is the layer, W is the weights going into the layer, b the bias, and $\phi$ the activation function. This process then repeats for the next layer until it reaches the end of the neural net.
 	
-	\subsubsection{Cost}
-	The cost or the loss
-
+	\subsubsection{Compute loss}
+	The loss is simply the difference between the output and the actual value. In this neural net it is computed by equation \ref{eqn:loss}.
+	\begin{equation}
+	\text{loss}=A_{i=\text{end}}-y
+	\label{eqn:loss}
+	\end{equation}
 	\subsubsection{Backward propagation}
 	
 	After going forward through the neural net in the forward propagation step, the next step is backwards propagation. Backwards propagation is the updating of the weight parameters via the derivative of the error function with respect to the weights of the neural net. For the output layer this is seen in equation \ref{eqn:outputBack} and equation \ref{eqn:allOtherBack} for all other layers.
@@ -261,7 +262,16 @@
 	W_i = W_i=\alpha*dW_{i}*A_{\left(i-1\right)}^T
 	\label{eqn:updateWeight}
 	\end{equation}
-	Where for the first layer $z_{\left(i-1\right)}^T$ will be the input vector and for all the following layers it will be the vector from the previous layer. 
+	Where for the first layer $z_{\left(i-1\right)}^T$ will be the input vector and for all the following layers it will be the vector from the previous layer. \par 
+	
+	Forward and backward propagation are visualized in figure \ref{fig:forwardbackwardprop}
+	
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.7\linewidth]{forwardBackwardProp}
+		\caption{A visualization of forward and backward propagation \cite{nnBlog}.}
+		\label{fig:forwardbackwardprop}
+	\end{figure}
 	\subsection{Gradient Decent}
 	Also known as steepest decent, gradient decent is a first order optimization algorithm. It is used to find the minimum of a function. Equation \ref{eqn:gdes} shows gradient decent implemented in a neural net. 
 	
@@ -270,11 +280,12 @@
 	\label{eqn:gdes}
 	\end{equation}
 	Where 
+	\textcolor{red}{put more here!!}
 	
 	\subsection{Activation Function}
 	The activation function was previously mentioned as a function used to convert the input signal to the output signal. Activation functions introduce non-linear properties to the neural net's functions, allowing the neural net to represent complex functions \cite{nnBlog}. \par 
 	The two most common activation functions used in neural nets for the gradient decent are sigmoid and hyperbolic tangent (Tanh). 
-	The formula for Tanh is seen in equation \ref{eqn:tanH}, and the derivative of Tanh is seen in equation \ref{eqn:dtanh} 
+	The formula for Tanh is seen in equation \ref{eqn:tanH}, and the formula for it's derivative  is seen in equation \ref{eqn:dtanh} 
 	\begin{equation}
 	\phi_{\text{Tanh}}(z)=\frac{1-e^{-2z}}{1+e^{-2z}}
 	\label{eqn:tanH}
@@ -323,9 +334,11 @@
 	The MATLAB class philipNeuralNet.m was written for this neural net project. It has the parameters learningRate and Level. The learningRate paramter is obviously the learning rate. The Level parameter has four parameters attached to it: W (weight), dW (weight derivative),  z (input), and A (the vector for the layer). By having this class we have avoided hard coding the propagation of the neural net and it is possible to test different neural net architectures on this code. \par 
 	
 	The MATLAB class also has an activation function and a derivative of the activation function. The actFunSwitch variable allows either the Sigmoid or the Tanh function to be selected. Additionally the enableBias variable allows for biases to be used or not used in the code's execution. \par 
+	Finally it has a outputVector function that is simply an implementation of the neural net. It takes the input, runs it through the net, and returns the net's output. \par 
 	
 	\subsection{MATLAB Code}
-	The MALAB code first initializes a neural net from given parameters. It then uses the handleTrainNet function to train the net. This function implements batch training, using the backward propagation function. It then computes and displays the training error and the testing accuracy after a specified number of runs. 
+	The MALAB code first initializes a neural net from given parameters. It obtains the MNIST data from a function\cite{usingMNIST}. It then uses the handleTrainNet function to train the net. This function implements batch training, using the forward and backward propagation functions. It then computes and displays the training error and the testing accuracy after a specified number of runs via the testAcc.m function. Once it has done this it plots the accuracy of the neural net via the plot accuracy function, generating the plots seen in the results section.
+	 
 	
 	
 	\section{Results}
@@ -348,11 +361,7 @@
 		\caption{The results from the simple network for the first 1000 epochs.}
 		\label{fig:250_all}
 	\end{figure}
-
-	
-	
-	
-	Looking at the results,  It was discovered that 
+	To get the 98.37\% accuracy it took approximately 12 hours of running the code and over three million neural net evaluations.
 	
 	\subsection{Comparison of different hidden layer sizes}
 	
@@ -368,8 +377,25 @@
 	
 	
 	\subsection{Multiple hidden layers}
-	For network with two hidden layers of 250 each the best accuarcy was 96\%.
-	
+	For network with two hidden layers of 250 each the best test accuracy was 96.49\%. The accuracy from the first 2000 epochs is seen in figure \ref{fig:250_all_l2}. 
+		\begin{figure}
+		\centering
+		\begin{subfigure}{.5\textwidth}
+			\centering
+			\includegraphics[width=\linewidth]{250_results_l2}
+			\caption{The results for the first 2000 epochs.}
+			\label{fig:250results_l2}
+		\end{subfigure}%
+		\begin{subfigure}{.5\textwidth}
+			\centering
+			\includegraphics[width=\linewidth]{250_results_log_l2}
+			\caption{The results for the first epochs scaled logarithmically}
+			\label{fig:250resultslog_l2}
+		\end{subfigure}
+		\caption{The results from the two layer network for the first 2000 epochs.}
+		\label{fig:250_all_l2}
+	\end{figure}
+
 	
 	
 	
@@ -382,7 +408,9 @@
 	
 	\section{Conclusion}
 	
-	The simple neural net achieved an accuracy of 98.37\%. This is on par with human recognition, and is about as accurate as a simple neural net can achieve. Higher accuracy rates are achieved via the use of constitutional neural networks, such as the  LeNet-5\cite{len5en}. Due to the long run time of large multi layered neural networks they were not studied, but could provide a more accurate identification with out convolution.
+	The simple neural net achieved an accuracy of 98.37\%. This is on par with human recognition, and is about as accurate as a simple neural net can achieve. Higher accuracy rates are achieved via the use of constitutional neural networks, such as the  LeNet-5\cite{len5en}. Due to the long run time of large multi layered neural networks they were not studied, but could provide a more accurate identification with out convolution.\par 
+	
+	What is interesting is that the best results occurred with out biases and with one hidden layer. It was expected that adding more complexion to the neural net would increase the accuracy, however this was not the case. As neural nets are very much a trial and error process, it is possible that these more complex nets will achieve a better accuracy with more fiddling. 
 
 			%--------------------------------------
 		% References
@@ -395,7 +423,7 @@
 		%-----------------------------------------------------------
 		% Appendix
 		%-----------------------------------------------------------
-		\newpage
+		%\newpage
 		\singlespacing
 %		\section*{Appendix 1 -derivation of gibbs}
 		\section*{Appendix 1 - MATLAB code}
@@ -422,6 +450,9 @@
 	\lstinputlisting{C:/Users/Philip/Documents/GitHub/DesignOpt/designOpNN/latexCode/NN_Master.m}
 	\subsection*{philipNeuralNet.m}
 	\lstinputlisting{C:/Users/Philip/Documents/GitHub/DesignOpt/designOpNN/latexCode/philipNeuralNet.m}
+	
+	\subsection*{testAcc.m}
+	\lstinputlisting{C:/Users/Philip/Documents/GitHub/DesignOpt/designOpNN/latexCode/testAcc.m}
 	%\lstinputlisting{C:/Users/Philip/Documents/GitHub/Thesis/Master_TLE.m}
 	%\lstinputlisting{C:/Users/Philip/Documents/GitHub/independent_study_fall_2018/Independat-Study-Fall-2018/Gibbs_Heck_master_loop_Latex.m}
 	

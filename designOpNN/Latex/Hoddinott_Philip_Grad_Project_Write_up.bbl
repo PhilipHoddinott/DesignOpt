@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{mnistMATLAB2}
 Deep learning for classification on the mnist dataset.
@@ -41,6 +41,12 @@ Jason Hicken.
 \bibitem{Hicken18gradProjRubric}
 Jason Hicken.
 \newblock Rubric for mane 6963 independent study, December 2018.
+
+\bibitem{usingMNIST}
+Using the mnist dataset.
+\newblock
+  \url{http://ufldl.stanford.edu/wiki/index.php/Using_the_MNIST_Dataset}, may
+  2011.
 
 \bibitem{matlabNNBeg}
 Loren Shure.

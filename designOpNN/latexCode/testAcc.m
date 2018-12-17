@@ -1,54 +1,35 @@
-function [correctlyClassified, classificationErrors] = testAcc(pNet, inputValues, labels,sizeArr)
-% validateTwoLayerPerceptron Validate the twolayer perceptron using the
-% validation set.
-%
-% INPUT:
-% activationFunction             : Activation function used in both layers.
-% hiddenWeights                  : Weights of the hidden layer.
-% outputWeights                  : Weights of the output layer.
-% inputValues                    : Input values for training (784 x 10000).
-% labels                         : Labels for validation (1 x 10000).
-%
-% OUTPUT:
-% correctlyClassified            : Number of correctly classified values.
-% classificationErrors           : Number of classification errors.
-% 
-
+function [numCorrect, numErrors] = testAcc(pNet, inputValues, labels, sizeArr)
+    % testAcc test the accuracy of a net using mnist validation set
+    %
+    % INPUT:
+    % pNet : net
+    % inputValues : MNIST Input values for training
+    % labels : MNIST Labels for validation
+    % sizeArr : net architecture
+    %
+    % OUTPUT:
+    % numCorrect : number of correctly classified numbers.
+    % numErrors : number of classification errors.
+    % 
     testSetSize = size(inputValues, 2);
-    classificationErrors = 0;
-    correctlyClassified = 0;
+    numErrors = 0;   numCorrect = 0;
     
     for n = 1: testSetSize
-        inputVector = inputValues(:, n);
-        %outputVector = evaluateTwoLayerPerceptron(pNet, inputVector,sizeArr);
-        
+        inputVector = inputValues(:, n);        
         outputVector = pNet.netOutput(inputVector,sizeArr);
+        max = 0; class = 1;
         
-        class = decisionRule(outputVector);
+        for i = 1: size(outputVector, 1)
+            if outputVector(i) > max
+                max = outputVector(i);
+                class = i;
+            end
+        end
+        
         if class == labels(n) + 1
-            correctlyClassified = correctlyClassified + 1;
+            numCorrect = numCorrect + 1;
         else
-            classificationErrors = classificationErrors + 1;
-        end;
-    end;
-end
-
-function class = decisionRule(outputVector)
-% decisionRule Model based decision rule.
-%
-% INPUT:
-% outputVector      : Output vector of the network.
-%
-% OUTPUT:
-% class             : Class the vector is assigned to.
-%
-
-    max = 0;
-    class = 1;
-    for i = 1: size(outputVector, 1)
-        if outputVector(i) > max
-            max = outputVector(i);
-            class = i;
-        end;
-    end;
+            numErrors = numErrors + 1;
+        end
+    end
 end
