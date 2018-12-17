@@ -1,11 +1,10 @@
 \begin{thebibliography}{1}
 
-\bibitem{matlabNNBeg}
-Loren Shure.
-\newblock Artificial neural networks for beginners.
+\bibitem{mnistMATLAB2}
+Deep learning for classification on the mnist dataset.
 \newblock
-  \url{https://blogs.mathworks.com/loren/2015/08/04/artificial-neural-networks-for-beginners/},
-  August 2015.
+  \url{https://www.mathworks.com/examples/computer-vision/community/36153-deep-learning-for-classification-on-the-mnist-dataset},
+  2018.
 
 \bibitem{nnDiagramStack}
 Diagram of an artificial neural network.
@@ -42,5 +41,12 @@ Jason Hicken.
 \bibitem{Hicken18gradProjRubric}
 Jason Hicken.
 \newblock Rubric for mane 6963 independent study, December 2018.
+
+\bibitem{matlabNNBeg}
+Loren Shure.
+\newblock Artificial neural networks for beginners.
+\newblock
+  \url{https://blogs.mathworks.com/loren/2015/08/04/artificial-neural-networks-for-beginners/},
+  August 2015.
 
 \end{thebibliography}

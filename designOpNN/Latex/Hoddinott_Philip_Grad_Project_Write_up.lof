@@ -1,5 +1,7 @@
-\contentsline {figure}{\numberline {1}{\ignorespaces Sample numbers from MNIST \cite {matlabNNBeg}.\relax }}{2}
+\contentsline {figure}{\numberline {1}{\ignorespaces Sample numbers from MNIST \cite {mnistMATLAB2}.\relax }}{2}
 \contentsline {figure}{\numberline {2}{\ignorespaces Visualization of a neural network \cite {nnDiagramStack}. \relax }}{3}
 \contentsline {figure}{\numberline {3}{\ignorespaces A visulization of forward and backward propogation \cite {nnBlog}.\relax }}{3}
 \contentsline {figure}{\numberline {4}{\ignorespaces Visualization of sigmoid and Tanh function\relax }}{5}
 \contentsline {figure}{\numberline {5}{\ignorespaces Run times for various neural network architectures\cite {deepBig}.\relax }}{6}
+\contentsline {figure}{\numberline {6}{\ignorespaces The results from the simple network for the first 1000 epochs.\relax }}{7}
+\contentsline {figure}{\numberline {7}{\ignorespaces Net accuracy for different layer sizes.\relax }}{7}

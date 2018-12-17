@@ -30,7 +30,7 @@
 \usepackage[table,xcdraw]{xcolor}
 
 
-\usepackage[margin=.75in]{geometry} 
+\usepackage[margin=.6in]{geometry} 
 \usepackage{amsmath,amsthm,amssymb}
 \usepackage{color}
 \usepackage{fancyhdr}
@@ -120,13 +120,15 @@
 \fi
 
 \begin{document}
+	%\thispagestyle{empty}
+	\clearpage
 		\title{Deep Neural Network}
 	\author{Philip Hoddinott}
 	
 	\maketitle
 	%\pagenumbering{roman}
-	%\thispagestyle{empty}
-	%\clearpage
+	%
+	%
 
 
 	
@@ -157,15 +159,8 @@
 %\doublespacing
 	\newpage
 	\section*{Abstract}
-	\textcolor{red}{Remove pasive voice, will, chec out rubirc }
-	The purpose of this report is to develop a neural net that can identify handwritten digets in the MNIST database at near human levels of accuracy. The neural net will be developed without the assistance of libraries such as Python's tensor flow or MATLAB's Deep Learning. 
-	
-	solve the MNIST  on the mnist database
-	. \par 
-	The author would like to express his gratitude to Professor Hicken
-	
-	
-	 for his suggestion of this project and his assistance with the methods of orbital determination through out the semester.\par 
+	The purpose of this report is to develop a neural net that can identify handwritten digits in the MNIST database at near human levels of accuracy. The neural net will be developed without the assistance of libraries such as Python's tensor flow or MATLAB's Deep Learning.\par 
+	The author would like to express his gratitude to Professor Hicken for the suggestion of this project. The author would also like to thank Theodore Ross and Varun Rao for their assistance with artificial neural networks.
 	
 	%	\newpage
 %\setcounter{page}{1}
@@ -179,6 +174,7 @@
 	 % this should start the normal numberinbg
 
 	\section{Introduction}
+	In recent years the 
 	Have it solve the MNIST with a simple simple thing
 	then try diffrent layers and stuff
 	
@@ -187,21 +183,19 @@
 	
 
 	\subsection{The MNIST database}
-	The Modified National Institute of Standards and Technology database or MNIST database\cite{mnistDATABASE} is a database of handwritten numbers used to train image processing systems. It contains 60,000 training images and 10,000 testing images. 
+	The Modified National Institute of Standards and Technology database or MNIST database\cite{mnistDATABASE} is a database of handwritten numbers used to train image processing systems. It contains 60,000 training images and 10,000 testing images. The database is comprised of images that are made up of a grid of 28x28 pixels. Some of these are seen in figure \ref{fig:mathworksmnistneuralnetfinal}. \par 
 	
-	A number of attempts have been made to get the lowest possible error rate on this dataset. As of August 2018 the  the lowest achieved so far is a error rate of 0.21\% or an accuracy of 99.79\%. For comparison human can accurately recognize digits at a rate of 98.5\%\cite{humanPerf}.
-	
-	The database is comprised of images that are made up of a grid of 28x28 pixels. Some of these are seen in figure \ref{fig:mathworksmnistneuralnetfinal}. 
+	A number of attempts have been made to get the lowest possible error rate on this dataset. As of August 2018 the  the lowest achieved so far is a error rate of 0.21\% or an accuracy of 99.79\%. For comparison human can accurately recognize digits at a rate of 98.5\%\cite{humanPerf}. 
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.7\linewidth]{mathworks_mnist_neuralnetFinal}
-		\caption{Sample numbers from MNIST \cite{matlabNNBeg}.}
+		\includegraphics[width=0.25\linewidth]{mathworks_mnist_neuralnetFinal_v2}
+		\caption{Sample numbers from MNIST \cite{mnistMATLAB2}.}
 		\label{fig:mathworksmnistneuralnetfinal}
 	\end{figure}
 	
 	\subsection{Artificial neural network}
-	An artificial neural network (referred tp as a neural network in this paper) is a computation system that mimics the biological neural netwroks found in animal brains. A nerual network is not an explict
+	An artificial neural network (referred to as a neural network in this paper) is a computation system that mimics the biological neural networks found in animal brains. A nerual network is not an explict
 	A 
 	Neural networks may be trained for tasks, such as the number recognition in this report. 
 	
@@ -224,7 +218,7 @@
 	\end{figure}
 
 	The four steps
-	\begin{enumerate}%\singlespacing
+	\begin{enumerate}\singlespacing
 		\item Initialize weights and biases. 
 		\item Forward propagation
 		\item compute loss
@@ -269,7 +263,7 @@
 	\end{equation}
 	Where for the first layer $z_{\left(i-1\right)}^T$ will be the input vector and for all the following layers it will be the vector from the previous layer. 
 	\subsection{Gradient Decent}
-	Also known as steepest decent, gradient decent is a first order optimization algorithm. It is used to find the minimum of a function. Equation \ref{eqn:gdes} shows gradient decsnet implenetd in a neral netIn a nerual net  gradient decent is implemented as  
+	Also known as steepest decent, gradient decent is a first order optimization algorithm. It is used to find the minimum of a function. Equation \ref{eqn:gdes} shows gradient decent implemented in a neural net. 
 	
 	\begin{equation}
 	\Delta W(t) = - \alpha \frac{\partial E}{\partial W(t)}
@@ -308,14 +302,7 @@
 		\label{fig:sigvstanh}
 	\end{figure}
 
-	Both functions have relativly simple mathematical formulas and are differentiable. In this paper the sigmoid function is used over the Tanh function, 
-	
-	The sigmoid function function is used over the Tanh function as it does not pass through the zero.  and 
-	
-	
-	Sigmoid and Tanh are not the only activation functions. Other functions that should be noted are the Rectified Linear Unit (ReLU) and the Leaky Rectified Linear Unit function. While these functions can perform better than Tanh and Sigmoid, they are more complex and a proper discussion of them is outside the scope of this paper. 
-	
-	Expalain importance of activation function
+	Both functions have relativly simple mathematical formulas and are differentiable. In this paper the sigmoid function is used over the Tanh function. \textcolor{red}{WHY?}. Sigmoid and Tanh are not the only activation functions. Other functions that should be noted are the Rectified Linear Unit (ReLU) and the Leaky Rectified Linear Unit function. While these functions can perform better than Tanh and Sigmoid, they are more complex and a proper discussion of them is outside the scope of this paper. \textcolor{red}{Expalain importance of activation function}
 	
 	\subsection{Pitfalls}
 	The most important thing to stear clear of is over traning. Overtraning occurs when the neural net trains too much to the traning data. While it will have a high accuracy for the traning data, it's performance for the test data will decay, as it has become too well attuned to the training data.  \par 
@@ -338,39 +325,50 @@
 	The MATLAB class also has an activation function and a derivative of the activation function. The actFunSwitch variable allows either the Sigmoid or the Tanh function to be selected. Additionally the enableBias variable allows for biases to be used or not used in the code's execution. \par 
 	
 	\subsection{MATLAB Code}
-	NOTE THAT THIS CODE WAS BIAS FREE
-	The code for this project was 
-	The code written for this project was diuesgend so that the 
-	
-	For a three layer neural net a hidden layer of 250 neurons seems to work the best\cite{matlabNNBeg}. 
-	
-	Go over how it was implemented
-	Go over batch testing
-	
-	restuls, comparison of diffrent arctiectures
-	
-	Go over the way this was implmented for the best way
-	
-	
+	The MALAB code first initializes a neural net from given parameters. It then uses the handleTrainNet function to train the net. This function implements batch training, using the backward propagation function. It then computes and displays the training error and the testing accuracy after a specified number of runs. 
 	
 	
 	\section{Results}
 	\subsection{Simple Neural Net}
-	The best results were found for simplex neural net examined; a one hidden layer with 250 nodes a learning rate of 0.1, and no biases. 
-	For a simple, $784\times250\times10$ neural net with a learning rate of 0.1 a test accuracy of 98\% was achieved. 
+	The best results were found for simplex neural net examined; a one hidden layer with 250 nodes a learning rate of 0.1, and no biases. For this simple a test accuracy of 98\% was achieved. The first 1000 epochs of this net are visualized in figure \ref{fig:250_all}.
+	\begin{figure}
+		\centering
+		\begin{subfigure}{.5\textwidth}
+			\centering
+			\includegraphics[width=\linewidth]{250_results}
+			\caption{The results for the first 1000 epochs.}
+			\label{fig:250results}
+		\end{subfigure}%
+		\begin{subfigure}{.5\textwidth}
+			\centering
+			\includegraphics[width=\linewidth]{250_results_log}
+			\caption{The results for the first epochs scaled logarithmically}
+			\label{fig:250resultslog}
+		\end{subfigure}
+		\caption{The results from the simple network for the first 1000 epochs.}
+		\label{fig:250_all}
+	\end{figure}
+
 	
 	
 	
-	Looking at the results,  It was discovered that
+	Looking at the results,  It was discovered that 
 	
 	\subsection{Comparison of different hidden layer sizes}
 	
-	From Shure \cite{matlabNNBeg}, the optimal size for the hidden layer in a three layer neural network is 250 nodes. Comparing the results for hidden layers shown 
-	No diffrence between the diffreny layer sizes, however there was a 
+	From Shure \cite{matlabNNBeg}, the optimal size for the hidden layer in a three layer neural network is 250 nodes. Comparing the results for hidden layers show in figure \ref{fig:multiplelayers}, different sizes of hidden layer do not have a large effect on the accuracy of these results. However what is different is the time it takes to run each net. The more nodes in a net, the longer it takes for the net to train, as there are more operations to perform. Thus if a neural net with 250 nodes will have the same accuracy as a net with 800 nodes, the first net is preferable, as it will be trained faster.
 	
-	However the problem is that the larger the nubme rof nodes, the longer it takes for the net to train, as there are more operations to perform. 
+	
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.7\linewidth]{multipleLayers}
+		\caption{Net accuracy for different layer sizes.}
+		\label{fig:multiplelayers}
+	\end{figure}
+	
 	
 	\subsection{Multiple hidden layers}
+	For network with two hidden layers of 250 each the best accuarcy was 96\%.
 	
 	
 	
@@ -384,7 +382,7 @@
 	
 	\section{Conclusion}
 	
-	The simple neural net achieved an accuracy of 98.37\%. This is on par with human recognition. 
+	The simple neural net achieved an accuracy of 98.37\%. This is on par with human recognition, and is about as accurate as a simple neural net can achieve. Higher accuracy rates are achieved via the use of constitutional neural networks, such as the  LeNet-5\cite{len5en}. Due to the long run time of large multi layered neural networks they were not studied, but could provide a more accurate identification with out convolution.
 
 			%--------------------------------------
 		% References
@@ -420,9 +418,10 @@
 			%emph=[2]{word1,word2}, emphstyle=[2]{style},    
 		}
 	\subsection*{NN\_Master.m}
-	\lstinputlisting{C:/Users/Philip/Documents/GitHub/designOpNN/latexCode/NN_Master.m}
+	%C:\Users\Philip\Documents\GitHub\DesignOpt\designOpNN\latexCode
+	\lstinputlisting{C:/Users/Philip/Documents/GitHub/DesignOpt/designOpNN/latexCode/NN_Master.m}
 	\subsection*{philipNeuralNet.m}
-	\lstinputlisting{C:/Users/Philip/Documents/GitHub/designOpNN/latexCode/philipNeuralNet.m}
+	\lstinputlisting{C:/Users/Philip/Documents/GitHub/DesignOpt/designOpNN/latexCode/philipNeuralNet.m}
 	%\lstinputlisting{C:/Users/Philip/Documents/GitHub/Thesis/Master_TLE.m}
 	%\lstinputlisting{C:/Users/Philip/Documents/GitHub/independent_study_fall_2018/Independat-Study-Fall-2018/Gibbs_Heck_master_loop_Latex.m}
 	
