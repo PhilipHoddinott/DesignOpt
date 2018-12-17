@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.16)  16 DEC 2018 13:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.16)  16 DEC 2018 21:16
 entering extended mode
 **./Hoddinott_Philip_Grad_Project_Write_up.tex
 (Hoddinott_Philip_Grad_Project_Write_up.tex
@@ -1045,20 +1045,55 @@ Package pdftex.def Info: mathworks_mnist_neuralnetFinal.png  used on input line
  197. on input line 197.
 Package pdftex.def Info: Requested size: 354.12144pt x 265.59525pt on input lin
 e 197.
- [4 <./mathworks_mnist_neuralnetFinal.png (PNG copy)>] (Hoddinott_Philip_Grad_P
-roject_Write_up.bbl [5]
-Underfull \hbox (badness 10000) in paragraph at lines 16--20
+ [4 <./mathworks_mnist_neuralnetFinal.png (PNG copy)>]
+<forwardBackwardProp.jpeg, id=18, 1003.75pt x 511.9125pt>
+File: forwardBackwardProp.jpeg Graphic file (type jpg)
+<use forwardBackwardProp.jpeg>
+Package pdftex.def Info: forwardBackwardProp.jpeg  used on input line 214. on i
+nput line 214.
+Package pdftex.def Info: Requested size: 354.12144pt x 180.6015pt on input line
+ 214.
+ [5 <./forwardBackwardProp.jpeg>]
+<sigVsTanh.png, id=22, 526.96875pt x 395.22656pt>
+File: sigVsTanh.png Graphic file (type png)
+<use sigVsTanh.png>
+Package pdftex.def Info: sigVsTanh.png  used on input line 251. on input line 2
+51.
+Package pdftex.def Info: Requested size: 202.3529pt x 151.76768pt on input line
+ 251.
+ [6 <./sigVsTanh.png (PNG copy)>]
+<nnRunTime.png, id=31, 426.99525pt x 109.00725pt>
+File: nnRunTime.png Graphic file (type png)
+<use nnRunTime.png>
+Package pdftex.def Info: nnRunTime.png  used on input line 272. on input line 2
+72.
+Package pdftex.def Info: Requested size: 354.12144pt x 90.40779pt on input line
+ 272.
+ (Hoddinott_Philip_Grad_Project_Write_up.bbl [7 <./nnRunTime.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 11--15
+[]\OT1/cmr/m/n/12 Daphne Cor-nelisse.  $\OT1/cmtt/m/n/12 https : / / medium . f
+reecodecamp . org /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--15
+\OT1/cmtt/m/n/12 building-[]a-[]3-[]layer-[]neural-[]network-[]from-[]scratch-[
+]99239c4af5d3 ? fbclid =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--31
 []\OT1/cmr/m/n/12 John Denker Patrice Simard, Yann Le Cun.  Ef-fi-cient pat-ter
 n recog-ni-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--20
+Underfull \hbox (badness 10000) in paragraph at lines 27--31
 \OT1/cmr/m/n/12 tion us-ing a new trans-for-ma-tion dis-tance.  $\OT1/cmtt/m/n/
 12 https : / / papers . nips . cc / paper /
  []
 
-) [6] ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+) [8] ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 
@@ -1067,27 +1102,28 @@ See the caption package documentation for explanation.
 
 
 AED: lastpage setting LastPage
-[7] (Hoddinott_Philip_Grad_Project_Write_up.aux) ) 
+[9] (Hoddinott_Philip_Grad_Project_Write_up.aux) ) 
 Here is how much of TeX's memory you used:
- 8140 strings out of 493312
- 114119 string characters out of 3138896
- 309677 words of memory out of 3000000
- 11509 multiletter control sequences out of 15000+200000
+ 8165 strings out of 493312
+ 114530 string characters out of 3138896
+ 309909 words of memory out of 3000000
+ 11528 multiletter control sequences out of 15000+200000
  13004 words of font info for 51 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,11n,43p,375b,304s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,12n,43p,376b,311s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
 17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Hoddinott_Philip_Grad_Project_Write_up.pdf (7 pages, 120910 b
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on Hoddinott_Philip_Grad_Project_Write_up.pdf (9 pages, 290057 b
 ytes).
 PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
+ 74 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

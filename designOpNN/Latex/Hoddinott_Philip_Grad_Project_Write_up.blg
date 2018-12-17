@@ -1,10 +1,16 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Hoddinott_Philip_Grad_Project_Write_up.aux
 The style file: unsrt.bst
 Database file #1: ref.bib
-Warning--entry type for "matlabNNBeg" isn't style-file defined
+Warning--entry type for "nnBlog" isn't style-file defined
 --line 1 of file ref.bib
+Warning--entry type for "matlabNNBeg" isn't style-file defined
+--line 19 of file ref.bib
 Warning--entry type for "humanPerf" isn't style-file defined
---line 9 of file ref.bib
+--line 27 of file ref.bib
 Warning--entry type for "mnistDATABASE" isn't style-file defined
---line 16 of file ref.bib
-(There were 3 warnings)
+--line 34 of file ref.bib
+Warning--entry type for "deepBig" isn't style-file defined
+--line 41 of file ref.bib
+Too many commas in name 1 of "Dan Claudiu Ciresan,Ueli Meier,Luca Maria Gambardella,Jurgen Schmidhuber" for entry deepBig
+while executing---line 944 of file unsrt.bst
+(There was 1 error message)

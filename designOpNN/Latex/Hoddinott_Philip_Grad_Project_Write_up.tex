@@ -184,11 +184,11 @@
 	Go over tan h vs sigmoid\
 	Explain batch testing
 	
-	\subsection{Background}
+
 	\subsection{The MNIST database}
 	The Modified National Institute of Standards and Technology database or MNIST database\cite{mnistDATABASE} is a database of handwritten numbers used to train image processing systems. It contains 60,000 training images and 10,000 testing images. 
 	
-	A number of attempts have been made to get the lowest possible error rate on this dataset. As of August 2018 the  the lowest achieved so far is a error rate of 0.21\% or an accuracy of 99.79\%.  For comparison human brains that are hardwired for pattern recogntion 1.5 \textcolor{red}{Come back to}\cite{humanPerf}.
+	A number of attempts have been made to get the lowest possible error rate on this dataset. As of August 2018 the  the lowest achieved so far is a error rate of 0.21\% or an accuracy of 99.79\%.  For comparison human brains that are hardwired for pattern recognition 1.5 \textcolor{red}{Come back to}\cite{humanPerf}.
 	
 	The database is comprised of images that are made up of a grid of 28x28 pixels, as seen in figure \ref{fig:mathworksmnistneuralnetfinal}. 
 	
@@ -200,37 +200,72 @@
 	\end{figure}
 	
 	\subsection{Artificial neural network}
-	An artifical nerual nework (refered tp as a NN in this paper)
+	An artificial neural network (referred tp as a neural network in this paper) is a computation system that mimics the biological neural netwroks found in animal brains. A nerual network is not an explict
+	A 
+	Neural networks may be trained for tasks, such as the number recognition in this report. 
 	
-	\subsubsection{Forward Propgation}
-	\subsubsection{Back propgration}
 	
-	\subsubsection{activation function}
 	
-	Tan h
-	The derivative of tanh is seen in equation \ref{eqn:dtanh}
+	\subsubsection{Nerual Network Walk through}
+	
+	Forward and backward propogation are visulized in figure \ref{fig:forwardbackwardprop}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.7\linewidth]{forwardBackwardProp}
+		\caption{A visulization of forward and backward propogation \cite{nnBlog}.}
+		\label{fig:forwardbackwardprop}
+	\end{figure}
+	
+	\subsubsection{Forward Propagation}
+	In a neural network forward propagation is the 
+	\subsubsection{Backward propgration}
+	After going forward the nerual net in the forward propgration, the next step is backwards propagation. Backwards propagation is the updating of the weight parameters via the gradient of the error. The graident of the error 
+	
+	\subsection{Gradient Decent}
+	
+	\subsubsection{Activation Function}
+	The two most common activation functions used in neural nets for the gradient decent are sigmoid and hyperbolic tangent (Tanh). 
+	The formula for Tanh is seen in equation \ref{eqn:tanH}, and the derivative of Tanh is seen in equation \ref{eqn:dtanh} 
+	\begin{equation}
+	\phi(z)=\frac{1-e^{-2z}}{1+e^{-2z}}
+	\label{eqn:tanH}
+	\end{equation}
 	\begin{equation}
 	\phi'(z)=\frac{4}{\left(x^{-z}+e^{z}\right)^2}
 	\label{eqn:dtanh}
 	\end{equation}
-	Sigmoid
-	The sigmoid function is senn in 
-	
+	The equation for the sigmoid function is seen in equation \ref{eqn:sig}, and it's derivative is seen in equation \ref{eqn:dsig}.
 	
 	\begin{equation}
 	\phi(z)=\frac{1}{1+e^{-z}}
 	\label{eqn:sig}
 	\end{equation}
-	The deritvative of the sigmoid function is
 	\begin{equation}
 	\phi'(z)=\frac{e^{-z}}{\left(e^{-z}+1\right)^2}
+	\label{eqn:dsig}
 	\end{equation}
+	The sigmoid and Tanh function are visualized in figure \ref{fig:sigvstanh}.
+	
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.4\linewidth]{sigVsTanh}
+		\caption{Visualization of sigmoid and Tanh function}
+		\label{fig:sigvstanh}
+	\end{figure}
+
+	Both functions have relativly simple mathematical formulas and are differentiable. In this paper the sigmoid function is used over the Tanh function, 
+	
+	The sigmoid function function is used over the Tanh function as it does not pass through the zero.  and 
+	
+	
+		
+	
 	Expalain importance of activation function
 	
-	\subsubsection{Pitfalls}
-	The most important thing to stear clear of is over traning. Overtraning occurs when the neural net trains too much to the traning data. While it will have a high accuracy for the traning data, it's performance for the test data will decay, as it has become too well attuned to the trainting data.  \par 
+	\subsection{Pitfalls}
+	The most important thing to stear clear of is over traning. Overtraning occurs when the neural net trains too much to the traning data. While it will have a high accuracy for the traning data, it's performance for the test data will decay, as it has become too well attuned to the training data.  \par 
 	
-	The other problem is the time it takes to train. A three layer neural net can be trained to 97\% accurcy within 10 minutes, however it will not improve far beyond that. Larger nets will take longer to train, but will take far longer to train. 
+	The other problem is the time it takes to train. A three layer neural net can be trained to 97\% accuracy within 10 minutes, however it will not improve far beyond that. Larger nets will take longer to train, but will take far longer to train. 
 	
 	\begin{figure}
 		\centering
@@ -240,7 +275,8 @@
 	\end{figure}
 	
 	\section{Implementation}
-	
+	The code written for this project was diuesgend so that the 
+	For a three layer neural net a hidden layer of 250 neurons seems to work the best\cite{matlabNNBeg}. 
 	
 	Go over how it was implemented
 	Go over batch testing
@@ -253,7 +289,12 @@
 	
 	
 	\section{Results}
-	\subsection{Simple Nerual Net}
+	\subsection{Simple Neural Net}
+	For a simple, $784\times250\times10$ neural net with a learning rate of 0.1 a test accuracy of 98\% was achieved. Looking at the results,  It was discovered that
+	
+	
+	
+	
 	
 	
 	 %, Kepler, Newton, and Euler\cite{lectureOnGreekAstro}. 

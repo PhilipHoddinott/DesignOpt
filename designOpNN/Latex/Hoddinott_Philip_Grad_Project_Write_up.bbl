@@ -7,6 +7,17 @@ Loren Shure.
   \url{https://blogs.mathworks.com/loren/2015/08/04/artificial-neural-networks-for-beginners/},
   August 2015.
 
+\bibitem{nnBlog}
+Daphne Cornelisse.
+\newblock
+  \url{https://medium.freecodecamp.org/building-a-3-layer-neural-network-from-scratch-99239c4af5d3?fbclid=IwAR1jjh1IsEVdvN0pIeMygzfY2ZG3K-Zata3z_jqlfLtQZKK0X6QEbNZABzw},
+  February 2018.
+
+\bibitem{deepBig}
+Luca Maria Gambardella Jurgen~Schmidhuber Dan Claudiu~Ciresan, Ueli~Meier.
+\newblock Deep big simple neural nets excel on handwritten digit recognition.
+\newblock \url{https://arxiv.org/pdf/1003.0358.pdf}, March 2010.
+
 \bibitem{mnistDATABASE}
 Christopher J.C.~Burges Yann~LeCun, Corinna~Cortes.
 \newblock The mnist database of handwritten digits.
