@@ -21,7 +21,10 @@ classdef philipNeuralNet
             % 
             % Output
             % obj : pNet
-            inputDim = size(inputValues, 1); % get dim
+            % pNetBest : pNet with best accuracy
+            % errorM : matrix of traning error
+            % testAccM : matrix of test accuracy
+            inputDim = size(inputValues, 1);
 
             for i =1:length(sizeArr)
                 if i==1
@@ -43,14 +46,9 @@ classdef philipNeuralNet
             obj.actFunSwitch=actFunSwitch;
         end
          function funcVal = actFunc(obj,x)
-            %actFunc activation function depending on the activation
-            %funciton switch, this performs sigmoid or TanH
-            % Input
-            % x : vector to perfom function on
-            % obj : pNet
-            % 
-            % Output
-            % funcVal: result of function(z)
+            %actFunc activation function
+            %   depending on the activation funciton switch, this performs
+            %   sigmoid or TanH
             if obj.actFunSwitch==0 % for sigmoid
                 funcVal = 1./(1 + exp(-x)); 
             elseif obj.actFunSwitch==1 % for tanh
@@ -62,13 +60,6 @@ classdef philipNeuralNet
             %dactFunc activation func derivative
             %   depending on the activation funciton switch, this performs
             %   derivative of sigmoid or Tanh
-            %
-            % Input
-            % x : vector to perfom function on
-            % obj : pNet
-            % 
-            % Output
-            % funcD: result of function(z)
             if obj.actFunSwitch==0
                 funcD = obj.actFunc(x).*(1 - obj.actFunc(x));
             elseif obj.actFunSwitch==1

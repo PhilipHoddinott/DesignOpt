@@ -174,19 +174,14 @@
 	 % this should start the normal numberinbg
 
 	\section{Introduction}
-	\textcolor{red}{Put a paragraph here}
-	In recent years the 
-	Have it solve the MNIST with a simple simple thing
-	then try diffrent layers and stuff
-	
-	Go over tan h vs sigmoid\
-	Explain batch testing
+	The first computational models for neural networks were thought up in the 1940s, however it would take 50 years for computers to achieve the processing power to implement the first neural networks. Today neural networks can be used for a variety of tasks. One of these tasks is image recognition of numbers. 
+
 	
 
 	\subsection{The MNIST database}
 	The Modified National Institute of Standards and Technology database or MNIST database\cite{mnistDATABASE} is a database of handwritten numbers used to train image processing systems. It contains 60,000 training images and 10,000 testing images. The database is comprised of images that are made up of a grid of 28x28 pixels. Some of these are seen in figure \ref{fig:mathworksmnistneuralnetfinal}. \par 
 	
-	A number of attempts have been made to get the lowest possible error rate on this dataset. As of August 2018 the  the lowest achieved so far is a error rate of 0.21\% or an accuracy of 99.79\%. For comparison human can accurately recognize digits at a rate of 98.5\%\cite{humanPerf}. 
+	A number of attempts have been made to get the lowest possible error rate on this dataset. As of August 2018 the  the lowest achieved so far is a error rate of 0.21\% or an accuracy of 99.79\%. For comparison human can accurately recognize digits at a rate of 98\% - 98.5\%\cite{humanPerf}. 
 	
 	\begin{figure}[H]
 		\centering
@@ -196,9 +191,7 @@
 	\end{figure}
 	
 	\subsection{Artificial neural network}
-	An artificial neural network (referred to as a neural network in this paper) is a computation system that mimics the biological neural networks found in animal brains. A neural network is not an explict
-	A 
-	Neural networks may be trained for tasks, such as the number recognition in this report. 
+	An artificial neural network (referred to as a neural network in this paper) is a computation system that mimics the biological neural networks found in animal brains. A neural network is not an algorithm, but a general framework to solve problems. Artificial neural networks are based of layers of interconnected neurons that transmit signals to each other. Neural networks may be trained for tasks, such as the number recognition in this report. 
 	
 	The neural net implemented in this project had an input vector of $784\times1$ and an output vector of $10\times1$. Different configurations were tried, with one hidden layer of $250\times1$ producing the best results. A visualization of an example neural net is seen in figure \ref{fig:nndiagram}.
 	\begin{figure}
@@ -246,9 +239,10 @@
 	\text{loss}=A_{i=\text{end}}-y
 	\label{eqn:loss}
 	\end{equation}
+	This loss is used to begin the next step: backward propagation.
 	\subsubsection{Backward propagation}
 	
-	After going forward through the neural net in the forward propagation step, the next step is backwards propagation. Backwards propagation is the updating of the weight parameters via the derivative of the error function with respect to the weights of the neural net. For the output layer this is seen in equation \ref{eqn:outputBack} and equation \ref{eqn:allOtherBack} for all other layers.
+	After going forward through the neural net in the forward propagation step and computing the loss the final step is backwards propagation. Backwards propagation is the updating of the weight parameters via the derivative of the error function with respect to the weights of the neural net. For the output layer this is seen in equation \ref{eqn:outputBack} and equation \ref{eqn:allOtherBack} for all other layers.
 	\begin{equation}
 	dW_{i=\text{end}}=\phi'(z_{i=\text{end}})*\left(A_{i=\text{end}}-y\right)
 	\label{eqn:outputBack}
@@ -263,8 +257,7 @@
 	\label{eqn:updateWeight}
 	\end{equation}
 	Where for the first layer $z_{\left(i-1\right)}^T$ will be the input vector and for all the following layers it will be the vector from the previous layer. \par 
-	
-	Forward and backward propagation are visualized in figure \ref{fig:forwardbackwardprop}
+	At this point the neural net has completed a full run through. The next input vector is selected and the forward and backward propagation are run again. A visualization of forward and backward propagation is in figure \ref{fig:forwardbackwardprop}.
 	
 	\begin{figure}
 		\centering
@@ -279,9 +272,7 @@
 	\Delta W(t) = - \alpha \frac{\partial E}{\partial W(t)}
 	\label{eqn:gdes}
 	\end{equation}
-	Where 
-	\textcolor{red}{put more here!!}
-	
+	Where $\alpha$ is the learning rate, and  $\partial E/\partial W(t)$ is the error derivative with respect to the weight. As these derivatives must be computed for each node the more nodes there are in a neural net the longer it will take to train. 
 	\subsection{Activation Function}
 	The activation function was previously mentioned as a function used to convert the input signal to the output signal. Activation functions introduce non-linear properties to the neural net's functions, allowing the neural net to represent complex functions \cite{nnBlog}. \par 
 	The two most common activation functions used in neural nets for the gradient decent are sigmoid and hyperbolic tangent (Tanh). 
@@ -313,10 +304,10 @@
 		\label{fig:sigvstanh}
 	\end{figure}
 
-	Both functions have relativly simple mathematical formulas and are differentiable. In this paper the sigmoid function is used over the Tanh function. \textcolor{red}{WHY?}. Sigmoid and Tanh are not the only activation functions. Other functions that should be noted are the Rectified Linear Unit (ReLU) and the Leaky Rectified Linear Unit function. While these functions can perform better than Tanh and Sigmoid, they are more complex and a proper discussion of them is outside the scope of this paper. \textcolor{red}{Expalain importance of activation function}
+	Both functions have relatively simple mathematical formulas and are differentiable. In this paper the sigmoid function is used over the Tanh function as it had better results. Sigmoid and Tanh are not the only activation functions. Other functions that should be noted are the Rectified Linear Unit (ReLU) and the Leaky Rectified Linear Unit function. These functions have their own separate pros and cons, but a proper discussion of them is outside the scope of this paper. 
 	
 	\subsection{Pitfalls}
-	The most important thing to stear clear of is over traning. Overtraning occurs when the neural net trains too much to the traning data. While it will have a high accuracy for the traning data, it's performance for the test data will decay, as it has become too well attuned to the training data.  \par 
+	The most important thing to steer clear of is over training. Over training occurs when the neural net trains too much to the training data. While it will have a high accuracy for the training data, it's performance for the test data will decay, as it has become too well attuned to the training data.  \par 
 	
 	The other problem is the time it takes to train. A three layer neural net can be trained to 97\% accuracy within 10 minutes, however it will not improve far beyond that. Larger nets will take longer to train, but will take far longer to train. 
 	
@@ -331,10 +322,13 @@
 	\subsection{Object Oriented Programming in MATLAB}
 	This neural net had to be made without the use of any built in libraries \cite{Hicken18gradProjDes} and the code had to be modular \cite{Hicken18gradProjRubric}. To create code for neural network subject to these constraints the author decided to create their own neural net class in MATLAB. \par 
 	
-	The MATLAB class philipNeuralNet.m was written for this neural net project. It has the parameters learningRate and Level. The learningRate paramter is obviously the learning rate. The Level parameter has four parameters attached to it: W (weight), dW (weight derivative),  z (input), and A (the vector for the layer). By having this class we have avoided hard coding the propagation of the neural net and it is possible to test different neural net architectures on this code. \par 
+	
+	The MATLAB class philipNeuralNet.m was written for this neural net project. It has the parameters learningRate, enableBias, actFunSwitch, and Level. The learningRate parameter is obviously the learning rate. The Level parameter has four parameters attached to it: W (weight), dW (weight derivative),  z (input), and A (the vector for the layer). By having this class we have avoided hard coding the propagation of the neural net and it is possible to test different neural net architectures on this code. \par 
 	
 	The MATLAB class also has an activation function and a derivative of the activation function. The actFunSwitch variable allows either the Sigmoid or the Tanh function to be selected. Additionally the enableBias variable allows for biases to be used or not used in the code's execution. \par 
 	Finally it has a outputVector function that is simply an implementation of the neural net. It takes the input, runs it through the net, and returns the net's output. \par 
+	
+	
 	
 	\subsection{MATLAB Code}
 	The MALAB code first initializes a neural net from given parameters. It obtains the MNIST data from a function\cite{usingMNIST}. It then uses the handleTrainNet function to train the net. This function implements batch training, using the forward and backward propagation functions. It then computes and displays the training error and the testing accuracy after a specified number of runs via the testAcc.m function. Once it has done this it plots the accuracy of the neural net via the plot accuracy function, generating the plots seen in the results section.
@@ -343,7 +337,7 @@
 	
 	\section{Results}
 	\subsection{Simple Neural Net}
-	The best results were found for simplex neural net examined; a one hidden layer with 250 nodes a learning rate of 0.1, and no biases. For this simple a test accuracy of 98\% was achieved. The first 1000 epochs of this net are visualized in figure \ref{fig:250_all}.
+	The best results were found for the simplest neural net examined; a one hidden layer with 250 nodes a learning rate of 0.1, and no biases. For this simple a test accuracy of 98\% was achieved. The first 1000 epochs of this net are visualized in figure \ref{fig:250_all}.
 	\begin{figure}
 		\centering
 		\begin{subfigure}{.5\textwidth}
@@ -365,7 +359,7 @@
 	
 	\subsection{Comparison of different hidden layer sizes}
 	
-	From Shure \cite{matlabNNBeg}, the optimal size for the hidden layer in a three layer neural network is 250 nodes. Comparing the results for hidden layers show in figure \ref{fig:multiplelayers}, different sizes of hidden layer do not have a large effect on the accuracy of these results. However what is different is the time it takes to run each net. The more nodes in a net, the longer it takes for the net to train, as there are more operations to perform. Thus if a neural net with 250 nodes will have the same accuracy as a net with 800 nodes, the first net is preferable, as it will be trained faster.
+	From Shure \cite{matlabNNBeg}, the optimal size for the hidden layer in a three layer neural network for the MNIST is 250 nodes. Comparing the results for hidden layers show in figure \ref{fig:multiplelayers}, different sizes of hidden layer do not have a large effect on the accuracy of these results. However what is different is the time it takes to run each net. The more nodes in a net, the longer it takes for the net to train, as there are more operations to perform. Thus if a neural net with 250 nodes will have the same accuracy as a net with 800 nodes, the first net is preferable, as it will be trained faster.
 	
 	
 	\begin{figure}
@@ -377,7 +371,7 @@
 	
 	
 	\subsection{Multiple hidden layers}
-	For network with two hidden layers of 250 each the best test accuracy was 96.49\%. The accuracy from the first 2000 epochs is seen in figure \ref{fig:250_all_l2}. 
+	The best accuracy occurred when both layers had a size of $250\times1$. For network with two hidden layers of 250 each the best test accuracy was 96.49\%. The accuracy from the first 2000 epochs is seen in figure \ref{fig:250_all_l2}. 
 		\begin{figure}
 		\centering
 		\begin{subfigure}{.5\textwidth}
@@ -396,14 +390,7 @@
 		\label{fig:250_all_l2}
 	\end{figure}
 
-	
-	
-	
-	
-	 %, Kepler, Newton, and Euler\cite{lectureOnGreekAstro}. 
-	
-	%\textcolor{red}{Segway hre}
-
+	The accuracy of two hidden layers was not as good as the accuracy of one hidden layer. No other configurations achieved an accuracy as high as this one. 
 
 	
 	\section{Conclusion}

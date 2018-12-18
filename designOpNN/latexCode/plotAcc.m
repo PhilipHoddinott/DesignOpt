@@ -1,3 +1,5 @@
+%% PlotAcc
+% Function to plot accuracy
 figure; hold on
 plot(25.*[(1:1:length(testAccM))],testAccM)
 xlabel('Epochs')

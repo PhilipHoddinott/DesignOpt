@@ -6,15 +6,15 @@
 \contentsline {subsubsection}{\numberline {1.3.2}Forward Propagation}{3}
 \contentsline {subsubsection}{\numberline {1.3.3}Compute loss}{4}
 \contentsline {subsubsection}{\numberline {1.3.4}Backward propagation}{4}
-\contentsline {subsection}{\numberline {1.4}Gradient Decent}{5}
+\contentsline {subsection}{\numberline {1.4}Gradient Decent}{4}
 \contentsline {subsection}{\numberline {1.5}Activation Function}{5}
-\contentsline {subsection}{\numberline {1.6}Pitfalls}{6}
+\contentsline {subsection}{\numberline {1.6}Pitfalls}{5}
 \contentsline {section}{\numberline {2}Implementation}{6}
 \contentsline {subsection}{\numberline {2.1}Object Oriented Programming in MATLAB}{6}
-\contentsline {subsection}{\numberline {2.2}MATLAB Code}{6}
+\contentsline {subsection}{\numberline {2.2}MATLAB Code}{7}
 \contentsline {section}{\numberline {3}Results}{7}
 \contentsline {subsection}{\numberline {3.1}Simple Neural Net}{7}
 \contentsline {subsection}{\numberline {3.2}Comparison of different hidden layer sizes}{7}
 \contentsline {subsection}{\numberline {3.3}Multiple hidden layers}{7}
-\contentsline {section}{\numberline {4}Conclusion}{7}
+\contentsline {section}{\numberline {4}Conclusion}{8}
 \contentsline {section}{Appendix}{9}
