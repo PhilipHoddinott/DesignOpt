@@ -174,9 +174,7 @@
 	 % this should start the normal numberinbg
 
 	\section{Introduction}
-	The first computational models for neural networks were thought up in the 1940s, however it would take 50 years for computers to achieve the processing power to implement the first neural networks. Today neural networks can be used for a variety of tasks. One of these tasks is image recognition of numbers. 
-
-	
+	The first computational models for neural networks were thought up in the 1940s, however it would take 50 years for computers to achieve the processing power to implement the first neural networks. Today neural networks can be used for a variety of tasks. One of these tasks is image recognition of numbers. A famous database for digit recognition is the MNIST database.	
 
 	\subsection{The MNIST database}
 	The Modified National Institute of Standards and Technology database or MNIST database\cite{mnistDATABASE} is a database of handwritten numbers used to train image processing systems. It contains 60,000 training images and 10,000 testing images. The database is comprised of images that are made up of a grid of 28x28 pixels. Some of these are seen in figure \ref{fig:mathworksmnistneuralnetfinal}. \par 
@@ -191,7 +189,7 @@
 	\end{figure}
 	
 	\subsection{Artificial neural network}
-	An artificial neural network (referred to as a neural network in this paper) is a computation system that mimics the biological neural networks found in animal brains. A neural network is not an algorithm, but a general framework to solve problems. Artificial neural networks are based of layers of interconnected neurons that transmit signals to each other. Neural networks may be trained for tasks, such as the number recognition in this report. 
+	An artificial neural network (referred to as a neural network in this paper) is a computation system that mimics the biological neural networks found in animal brains. A neural network is not an algorithm, but a general framework to solve problems. Artificial neural networks are based of layers of interconnected neurons that transmit signals to each other. The layers in between the input and the output layers are referred to as hidden layers. Neural networks may be trained for tasks, such as the number recognition in this report. 
 	
 	The neural net implemented in this project had an input vector of $784\times1$ and an output vector of $10\times1$. Different configurations were tried, with one hidden layer of $250\times1$ producing the best results. A visualization of an example neural net is seen in figure \ref{fig:nndiagram}.
 	\begin{figure}
@@ -207,7 +205,7 @@
 	
 	The training of a neural network involves four main steps:
 	\begin{enumerate}\singlespacing
-		\item Initialize weights and biases. 
+		\item Initialize weights and biases (parameters). 
 		\item Forward propagation
 		\item Compute the loss
 		\item Backward propagation
@@ -256,7 +254,7 @@
 	W_i = W_i=\alpha*dW_{i}*A_{\left(i-1\right)}^T
 	\label{eqn:updateWeight}
 	\end{equation}
-	Where for the first layer $z_{\left(i-1\right)}^T$ will be the input vector and for all the following layers it will be the vector from the previous layer. \par 
+	Where for the first layer $A_{\left(i-1\right)}^T$ will be the input vector and for all the following layers it will be the vector from the previous layer. \par 
 	At this point the neural net has completed a full run through. The next input vector is selected and the forward and backward propagation are run again. A visualization of forward and backward propagation is in figure \ref{fig:forwardbackwardprop}.
 	
 	\begin{figure}
@@ -323,7 +321,7 @@
 	This neural net had to be made without the use of any built in libraries \cite{Hicken18gradProjDes} and the code had to be modular \cite{Hicken18gradProjRubric}. To create code for neural network subject to these constraints the author decided to create their own neural net class in MATLAB. \par 
 	
 	
-	The MATLAB class philipNeuralNet.m was written for this neural net project. It has the parameters learningRate, enableBias, actFunSwitch, and Level. The learningRate parameter is obviously the learning rate. The Level parameter has four parameters attached to it: W (weight), dW (weight derivative),  z (input), and A (the vector for the layer). By having this class we have avoided hard coding the propagation of the neural net and it is possible to test different neural net architectures on this code. \par 
+	The MATLAB class philipNeuralNet.m was written for this neural net project. It has the parameters learningRate, enableBias, actFunSwitch, and Level. The learningRate parameter is obviously the learning rate. The Level parameter has four parameters attached to it: W (weight), dW (weight derivative),  z (input), and A (the vector for the layer). By having this class we have avoided hard coding the propagation of the neural net and it is possible to test different neural net architectures on this code. To implement a one hidden layer net simply set sizeArr = [250; 10] and run the code.  For a six layer net set sizeArr = [2500; 2000; 1500; 1000; 500; 10] and run the code.\par 
 	
 	The MATLAB class also has an activation function and a derivative of the activation function. The actFunSwitch variable allows either the Sigmoid or the Tanh function to be selected. Additionally the enableBias variable allows for biases to be used or not used in the code's execution. \par 
 	Finally it has a outputVector function that is simply an implementation of the neural net. It takes the input, runs it through the net, and returns the net's output. \par 
@@ -339,7 +337,7 @@
 	
 	\section{Results}
 	\subsection{Simple Neural Net}
-	The best results were found for the simplest neural net examined; a one hidden layer with 250 nodes a learning rate of 0.1, and no biases. For this simple a test accuracy of 98\% was achieved. The first 1000 epochs of this net are visualized in figure \ref{fig:250_all}.
+	The best results were found for the simplest neural net examined; a one hidden layer with 250 nodes a learning rate of 0.1, and no biases. For this simple neural net a test accuracy of 98.37\% was achieved. The first 1000 epochs of this net are visualized in figure \ref{fig:250_all}.
 	\begin{figure}
 		\centering
 		\begin{subfigure}{.5\textwidth}
