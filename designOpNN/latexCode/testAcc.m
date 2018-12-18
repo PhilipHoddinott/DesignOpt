@@ -1,4 +1,4 @@
-function [numCorrect, numErrors] = testAcc(pNet, inputValues, labels, sizeArr)
+function [numCorrect, numErrors,acc] = testAcc(pNet, inputValues, labels, sizeArr)
     % testAcc test the accuracy of a net using mnist validation set
     %
     % INPUT:
@@ -17,19 +17,20 @@ function [numCorrect, numErrors] = testAcc(pNet, inputValues, labels, sizeArr)
     for n = 1: testSetSize
         inputVector = inputValues(:, n);        
         outputVector = pNet.netOutput(inputVector,sizeArr);
-        max = 0; class = 1;
+        maxV = 0; class = 1;
         
         for i = 1: size(outputVector, 1)
-            if outputVector(i) > max
-                max = outputVector(i);
-                class = i;
+            if outputVector(i) > maxV
+                maxV = outputVector(i); % get maxV
+                class = i; % get class
             end
         end
         
         if class == labels(n) + 1
-            numCorrect = numCorrect + 1;
+            numCorrect = numCorrect + 1; % count correct
         else
-            numErrors = numErrors + 1;
+            numErrors = numErrors + 1; % count error
         end
     end
+    acc=100*(numCorrect) / (numCorrect+numErrors);   % get accuracy
 end

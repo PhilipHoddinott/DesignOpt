@@ -304,7 +304,7 @@
 		\label{fig:sigvstanh}
 	\end{figure}
 
-	Both functions have relatively simple mathematical formulas and are differentiable. In this paper the sigmoid function is used over the Tanh function as it had better results. Sigmoid and Tanh are not the only activation functions. Other functions that should be noted are the Rectified Linear Unit (ReLU) and the Leaky Rectified Linear Unit function. These functions have their own separate pros and cons, but a proper discussion of them is outside the scope of this paper. 
+	Both functions have relatively simple mathematical formulas and are differentiable. In this paper the sigmoid function is used over the Tanh function as it had better results. Sigmoid and Tanh are not the only activation functions. Other functions that should be noted are the Rectified Linear Unit (ReLU) and the Leaky Rectified Linear Unit function. These functions have their own separate pros and cons, but a proper discussion of two more activation functions is outside the scope of this paper. 
 	
 	\subsection{Pitfalls}
 	The most important thing to steer clear of is over training. Over training occurs when the neural net trains too much to the training data. While it will have a high accuracy for the training data, it's performance for the test data will decay, as it has become too well attuned to the training data.  \par 
@@ -331,7 +331,9 @@
 	
 	
 	\subsection{MATLAB Code}
-	The MALAB code first initializes a neural net from given parameters. It obtains the MNIST data from a function\cite{usingMNIST}. It then uses the handleTrainNet function to train the net. This function implements batch training, using the forward and backward propagation functions. It then computes and displays the training error and the testing accuracy after a specified number of runs via the testAcc.m function. Once it has done this it plots the accuracy of the neural net via the plot accuracy function, generating the plots seen in the results section.
+	The MALAB code first initializes a neural net from given parameters. It obtains the MNIST data from a function\cite{usingMNIST}. It then uses the handleTrainNet function to train the net. This function implements batch training, using the forward and backward propagation functions. It then computes and displays the training error and the testing accuracy after a specified number of runs via the testAcc.m function. Once it has done this it plots the accuracy of the neural net via the plot accuracy function, generating the plots seen in the results section. The code used in this report may be downloaded from \url{https://github.com/PhilipHoddinott/DesignOpt/tree/master/designOpNN}\par 
+	
+	
 	 
 	
 	
@@ -372,7 +374,7 @@
 	
 	\subsection{Multiple hidden layers}
 	The best accuracy occurred when both layers had a size of $250\times1$. For network with two hidden layers of 250 each the best test accuracy was 96.49\%. The accuracy from the first 2000 epochs is seen in figure \ref{fig:250_all_l2}. 
-		\begin{figure}
+		\begin{figure}[H]
 		\centering
 		\begin{subfigure}{.5\textwidth}
 			\centering
@@ -395,9 +397,10 @@
 	
 	\section{Conclusion}
 	
-	The simple neural net achieved an accuracy of 98.37\%. This is on par with human recognition, and is about as accurate as a simple neural net can achieve. Higher accuracy rates are achieved via the use of constitutional neural networks, such as the  LeNet-5\cite{len5en}. Due to the long run time of large multi layered neural networks they were not studied, but could provide a more accurate identification with out convolution.\par 
+	The simple neural net achieved an accuracy of 98.37\%. This is on par with human recognition, and is about as accurate as a simple neural net can achieve. Higher accuracy rates are achieved via the use of constitutional neural networks, such as the  LeNet-5\cite{len5}. Due to the long run time of large multi layered neural networks they were not studied, but could provide a more accurate identification with out convolution.\par 
 	
-	What is interesting is that the best results occurred with out biases and with one hidden layer. It was expected that adding more complexion to the neural net would increase the accuracy, however this was not the case. As neural nets are very much a trial and error process, it is possible that these more complex nets will achieve a better accuracy with more fiddling. 
+	What is interesting is that the best results occurred with out biases and with one hidden layer. It was expected that adding more complexion to the neural net would increase the accuracy, however this was not the case. As neural nets are very much a trial and error process, it is possible that these more complex nets will achieve a better accuracy with more fiddling.\par 
+
 
 			%--------------------------------------
 		% References
@@ -440,6 +443,9 @@
 	
 	\subsection*{testAcc.m}
 	\lstinputlisting{C:/Users/Philip/Documents/GitHub/DesignOpt/designOpNN/latexCode/testAcc.m}
+	
+	\subsection*{plotAcc.m}
+	\lstinputlisting{C:/Users/Philip/Documents/GitHub/DesignOpt/designOpNN/latexCode/plotAcc.m}
 	%\lstinputlisting{C:/Users/Philip/Documents/GitHub/Thesis/Master_TLE.m}
 	%\lstinputlisting{C:/Users/Philip/Documents/GitHub/independent_study_fall_2018/Independat-Study-Fall-2018/Gibbs_Heck_master_loop_Latex.m}
 	

@@ -88,8 +88,7 @@ function [pNet,pNetBest,errorM,testAccM] = handleTrainNet(pNet,  inputValues, ta
         end
             
         if mod(t,25)==0 %
-            [numCorrect, numErrors] = testAcc(pNet, inputValuesTest, labelsTest,sizeArr);
-            acc=100*(numCorrect) / (numCorrect+numErrors); % get accuracy
+            [numCorrect, numErrors,acc] = testAcc(pNet, inputValuesTest, labelsTest,sizeArr);
             if acc>accBest
                 accBest=acc; % get best accuracy
             end

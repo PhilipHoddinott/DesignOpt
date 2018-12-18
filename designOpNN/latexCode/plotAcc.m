@@ -1,5 +1,6 @@
 %% PlotAcc
-% Function to plot accuracy
+% Function to plot accuracy. No inputs, as it is run from the NN_master.m
+% file
 figure; hold on
 plot(25.*[(1:1:length(testAccM))],testAccM)
 xlabel('Epochs')

@@ -23,9 +23,9 @@ classdef philipNeuralNet
             % obj : pNet
             inputDim = size(inputValues, 1); % get dim
 
-            for i =1:length(sizeArr)
+            for i =1:length(sizeArr) % intlized neural net variables
                 if i==1
-                    obj.Level(i).W=rand(sizeArr(i),inputDim);
+                    obj.Level(i).W=rand(sizeArr(i),inputDim); 
                     obj.Level(i).W=( obj.Level(i).W)./size( obj.Level(i).W,2);
                 else
                     obj.Level(i).W=rand(sizeArr(i),sizeArr(i-1));

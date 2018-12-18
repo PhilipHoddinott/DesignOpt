@@ -3,6 +3,8 @@ The style file: unsrt.bst
 Database file #1: ref.bib
 Warning--entry type for "usingMNIST" isn't style-file defined
 --line 1 of file ref.bib
+Warning--entry type for "len5" isn't style-file defined
+--line 7 of file ref.bib
 Warning--entry type for "mnistMATLAB2" isn't style-file defined
 --line 13 of file ref.bib
 Warning--entry type for "nnDiagramStack" isn't style-file defined
@@ -17,7 +19,6 @@ Warning--entry type for "mnistDATABASE" isn't style-file defined
 --line 92 of file ref.bib
 Warning--entry type for "deepBig" isn't style-file defined
 --line 99 of file ref.bib
-Warning--I didn't find a database entry for "len5en"
 Too many commas in name 1 of "Dan Claudiu Ciresan,Ueli Meier,Luca Maria Gambardella,Jurgen Schmidhuber" for entry deepBig
 while executing---line 944 of file unsrt.bst
 (There was 1 error message)

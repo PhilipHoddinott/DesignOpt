@@ -15,6 +15,6 @@
 \contentsline {section}{\numberline {3}Results}{7}
 \contentsline {subsection}{\numberline {3.1}Simple Neural Net}{7}
 \contentsline {subsection}{\numberline {3.2}Comparison of different hidden layer sizes}{7}
-\contentsline {subsection}{\numberline {3.3}Multiple hidden layers}{7}
+\contentsline {subsection}{\numberline {3.3}Multiple hidden layers}{8}
 \contentsline {section}{\numberline {4}Conclusion}{8}
 \contentsline {section}{Appendix}{9}
